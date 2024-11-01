@@ -1,16 +1,12 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
+import { Crimson_Pro } from "next/font/google";
+import "./styles/globals.scss";
+import { MainNavigation } from "@/app/components/mainNavigation/MainNavigation";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const crimsonPro = Crimson_Pro({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-crimson-pro",
 });
 
 export const metadata: Metadata = {
@@ -25,7 +21,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${crimsonPro.variable}`}>
+        <MainNavigation></MainNavigation>
         {children}
       </body>
     </html>
