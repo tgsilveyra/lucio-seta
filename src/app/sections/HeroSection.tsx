@@ -44,7 +44,7 @@ export const HeroSection = () => {
         </h3>
       </div>
       <Video
-        src="/hero-video.mp4"
+        src={`${process.env.BASE_PATH}/hero-video.mp4`}
         className={styles.heroVideo}
         ref={videoRef}
       />
