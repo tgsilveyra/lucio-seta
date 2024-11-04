@@ -18,6 +18,7 @@ const Video = forwardRef<HTMLVideoElement, VideoProps>(function Video(
       src={src}
       muted
       loop
+      playsInline
     ></video>
   );
 });
