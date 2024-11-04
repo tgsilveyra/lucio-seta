@@ -3,7 +3,6 @@
 import styles from "./heroSection.module.scss";
 import { Video } from "@/app/components/video/Video";
 import { useEffect, useRef } from "react";
-import clsx from "clsx";
 import gsap from "gsap";
 
 export const HeroSection = () => {
