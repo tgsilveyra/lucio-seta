@@ -1,0 +1,59 @@
+@use "../styles/mixins" as *;
+
+.heroSection {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  min-height: 100vh;
+  width: 100%;
+  max-width: var(--grid-max-width);
+  position: relative;
+
+  @include respond-to(LARGE) {
+  }
+}
+
+.heroContent {
+  margin-top: 0;
+  @include respond-to(LARGE) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+}
+
+.mainTitle,
+.secondaryTitle,
+.thirdTitle {
+  text-align: center;
+}
+
+.mainTitle,
+.secondaryTitle {
+  opacity: 0;
+}
+
+.mainTitle {
+  transform: translateY(100%);
+}
+
+.secondaryTitle {
+  transform: translateY(-100%);
+}
+
+.thirdTitle {
+  margin-top: 50px;
+}
+
+.heroVideo {
+  inset: 0;
+  width: 100%;
+  margin-block-start: 100px;
+
+  @include respond-to(LARGE) {
+    margin-block-start: 0;
+  }
+}

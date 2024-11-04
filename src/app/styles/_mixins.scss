@@ -1,0 +1,25 @@
+@use "sass:map";
+
+$mediaQueries: (
+  XSMALL: "(min-width: 414px)",
+  SMALL: "(min-width: 480px)",
+  MEDIUM: "(min-width: 768px)",
+  LARGE: "(min-width: 1024px)",
+  XLARGE: "(min-width: 1280px)",
+  XXLARGE: "(min-width: 1680px)",
+  XXXLARGE: "(min-width: 1920px)",
+);
+
+@function get-media-query($name) {
+  @return map.get($mediaQueries, $name);
+}
+
+@mixin respond-to($name) {
+  @if map.has-key($mediaQueries, $name) {
+    @media #{get-media-query($name)} {
+      @content;
+    }
+  } @else {
+    @error "MediaQuery #{$name} does not exist";
+  }
+}
