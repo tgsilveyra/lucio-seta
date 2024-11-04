@@ -2,10 +2,9 @@
 
 import styles from "./heroSection.module.scss";
 import { Video } from "@/app/components/video/Video";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import clsx from "clsx";
 import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
 
 export const HeroSection = () => {
   const titleRef = useRef<HTMLHeadingElement>(null);
@@ -13,16 +12,20 @@ export const HeroSection = () => {
   const heroContent = useRef<HTMLDivElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
 
-  useGSAP(() => {
-    const timeline = gsap.timeline({ defaults: { ease: "power2.out" } });
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      const timeline = gsap.timeline({ defaults: { ease: "power2.out" } });
 
-    timeline.to(titleRef.current, { opacity: 1, y: 0 }, "start");
-    timeline.to(secondaryTitleRef.current, { opacity: 1, y: 0 }, "<+=0.2");
-    timeline.to(videoRef.current, { opacity: 1, delay: 1, duration: 1 });
-    timeline.then(() => {
-      videoRef.current?.play();
+      timeline.to(titleRef.current, { opacity: 1, y: 0 }, "start");
+      timeline.to(secondaryTitleRef.current, { opacity: 1, y: 0 }, "<+=0.2");
+      timeline.to(videoRef.current, { opacity: 1, delay: 1, duration: 1 });
+      timeline.then(() => {
+        videoRef.current?.play();
+      });
     });
-  });
+
+    return () => ctx.revert();
+  }, []);
 
   return (
     <section className={styles.heroSection}>
