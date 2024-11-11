@@ -4,7 +4,6 @@ import styles from "./worksSection.module.scss";
 import { useEffect } from "react";
 import gsap from "gsap";
 import clsx from "clsx";
-import Link from "next/link";
 import { WorkListItem } from "@/app/components/workListItem/WorkListItem";
 
 const works = [
@@ -61,7 +60,7 @@ const works = [
 export const WorksSection = () => {
   useEffect(() => {
     const ctx = gsap.context(() => {
-      const timeline = gsap.timeline({ defaults: { ease: "power2.out" } });
+      // const timeline = gsap.timeline({ defaults: { ease: "power2.out" } });
     });
 
     return () => ctx.revert();
