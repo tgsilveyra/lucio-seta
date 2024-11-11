@@ -17,7 +17,7 @@ export default function UnlockedPage() {
           despair. It&apos;s not about seeking to be overshadowed by the weight
           of trauma. On the contrary, the performer aims to shed light on the
           triumphs and successes that emerge from the human body&apos;s capacity
-          to heal and overcome adversity through dance.
+          to heal and overcome adversity through dance..
         </p>
         <p>PREMIERED AT EXPEDITION METROPOLIS THEATER BERLIN (2024)</p>
         <h4>CREDITS</h4>
