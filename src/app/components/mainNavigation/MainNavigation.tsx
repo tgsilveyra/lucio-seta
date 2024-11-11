@@ -9,10 +9,18 @@ export const MainNavigation = () => {
         Seta
       </div>
       <ul className={styles.list}>
-        <li className="main-navigation__list-item">Works</li>
-        <li className="main-navigation__list-item">Biography</li>
-        <li className="main-navigation__list-item">Teching</li>
-        <li className="main-navigation__list-item">Contact</li>
+        <li className="main-navigation__list-item">
+          <a href="#">Works</a>
+        </li>
+        <li className="main-navigation__list-item">
+          <a href="#">Biography</a>
+        </li>
+        <li className="main-navigation__list-item">
+          <a href="#">Teaching</a>
+        </li>
+        <li className="main-navigation__list-item">
+          <a href="#">Contact</a>
+        </li>
       </ul>
       <div className={styles["social-links"]}>Social Links</div>
     </nav>

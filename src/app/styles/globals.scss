@@ -7,8 +7,8 @@ body {
 }
 
 body {
-  color: var(--primary-color);
-  background: var(--background-color);
+  color: var(--white-color);
+  background: var(--rich-black-color);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -25,10 +25,35 @@ a {
   text-decoration: none;
 }
 
+button {
+  -webkit-appearance: none;
+  border-radius: 0;
+  text-align: inherit;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  color: inherit;
+  font: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   max-width: 1920px;
   padding: 0 60px;
   margin: 0 auto;
+}
+
+.grid-container {
+  max-width: var(--grid-max-width);
+  margin: 0 auto;
+  padding: 160px 60px;
 }
 
 .overflow-hidden {
