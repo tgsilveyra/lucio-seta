@@ -1,0 +1,36 @@
+.workListItem {
+  border-top: 1px solid rgba($white-color, 0.3);
+}
+
+.workListLink {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+
+  @include respond-to(LARGE) {
+    flex-direction: row;
+    gap: 120px;
+    padding: 60px 20px;
+  }
+}
+
+.date {
+  color: $colorVanillaIce;
+  margin-bottom: 16px;
+
+  @include respond-to(LARGE) {
+    word-break: break-all;
+    max-width: 4ch;
+    margin-bottom: 0;
+  }
+}
+
+.workListContentWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  @include respond-to(LARGE) {
+    gap: 16px;
+  }
+}

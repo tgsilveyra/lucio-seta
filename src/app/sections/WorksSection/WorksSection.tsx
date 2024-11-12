@@ -38,7 +38,7 @@ const works = [
     href: "/works/cleo",
   },
   {
-    year: "2022 - 2023",
+    year: "20222023",
     title: "STATE OF JOINT",
     description: "Duett Dance Performance",
     href: "/works/state-of-joint",
@@ -69,7 +69,7 @@ export const WorksSection = () => {
   return (
     <section className={clsx("grid-container", styles.worksSection)}>
       <h2 className={styles.title}>Works</h2>
-      <ul>
+      <ul className={styles.worksList}>
         {works.map((work) => (
           <WorkListItem
             key={work.title}

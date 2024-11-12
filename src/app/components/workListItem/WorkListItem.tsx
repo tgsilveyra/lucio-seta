@@ -1,4 +1,6 @@
 import Link from "next/link";
+import styles from "./workListItem.module.scss";
+import clsx from "clsx";
 
 type WorkListItemProps = {
   href: string;
@@ -14,14 +16,14 @@ export const WorkListItem = ({
   description,
 }: WorkListItemProps) => {
   return (
-    <Link href={href}>
-      <li>
-        <p>{year}</p>
-        <div>
-          <h3>{title}</h3>
-          <p>{description}</p>
+    <li className={styles.workListItem}>
+      <Link href={href} className={styles.workListLink}>
+        <p className={clsx("heading-4", styles.date)}>{year}</p>
+        <div className={styles.workListContentWrapper}>
+          <h4>{title}</h4>
+          <p className="body">{description}</p>
         </div>
-      </li>
-    </Link>
+      </Link>
+    </li>
   );
 };

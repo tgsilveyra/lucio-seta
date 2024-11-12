@@ -1,19 +1,37 @@
-@use "../../styles/mixins" as *;
-
 .worksSection {
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-end;
-  min-height: 100vh;
+  flex-direction: column;
+  height: 100%;
   width: 100%;
   max-width: var(--grid-max-width);
   position: relative;
+  justify-content: space-between;
 
   @include respond-to(LARGE) {
+    flex-direction: row;
   }
 }
 
 .title {
-  color: var(--vanilla-ice-color);
+  color: $colorVanillaIce;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  margin-block-end: 60px;
+
+  @include respond-to(LARGE) {
+    position: sticky;
+    top: 100px;
+    align-self: flex-start;
+    flex: 25% 0;
+    margin-block-end: 0;
+  }
+}
+
+.worksList {
+  flex: 65% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
 }

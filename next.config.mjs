@@ -5,6 +5,9 @@ const nextConfig = {
   env: {
     BASE_PATH: process.env.NODE_ENV === "development" ? "" : "",
   },
+  sassOptions: {
+    prependData: `@import "src/app/styles/utils.scss";`,
+  },
 };
 
 export default nextConfig;

@@ -1,13 +1,7 @@
 import type { Metadata } from "next";
-import { Crimson_Pro } from "next/font/google";
 import "./styles/globals.scss";
 import { MainNavigation } from "@/app/components/mainNavigation/MainNavigation";
-
-const crimsonPro = Crimson_Pro({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-crimson-pro",
-});
+import { fontRoom, fontTrajanPro } from "@/app/styles/fonts";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -21,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${crimsonPro.variable}`}>
+      <body className={`${fontTrajanPro.variable} ${fontRoom.variable}`}>
         <MainNavigation></MainNavigation>
         {children}
       </body>
