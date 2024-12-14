@@ -2,13 +2,14 @@ import clsx from "clsx";
 import styles from "./page.module.scss";
 import { getAbsolutePath } from "@/app/utils/getAbsolutePath";
 import { createMarkup } from "@/app/utils/createMarkup";
+import { Work, WorkCredit } from "@/app/types/work";
 
 export async function generateStaticParams() {
   const data = await fetch(getAbsolutePath("/api/data")).then((res) =>
     res.json()
   );
 
-  return data.works.map((work) => ({
+  return data.works.map((work: Work) => ({
     slug: work.slug,
   }));
 }
@@ -18,10 +19,14 @@ async function getPageData(slug: string) {
     res.json()
   );
 
-  return data.works.find((work) => work.slug === slug);
+  return data.works.find((work: Work) => work.slug === slug);
 }
 
-export default async function WorkPage({ params }) {
+export default async function WorkPage({
+  params,
+}: {
+  params: { slug: string };
+}) {
   const data = await getPageData(params.slug);
   const { title, description, subtitle, premiered, credits, mainImage } = data;
 
@@ -35,7 +40,7 @@ export default async function WorkPage({ params }) {
         <div className={styles.workInfo}>
           {credits.length > 0 && (
             <ul className={styles.worksList}>
-              {credits.map((credit, index: number) => (
+              {credits.map((credit: WorkCredit, index: number) => (
                 <li key={`${credit.name}-${index}`}>
                   <p>
                     {credit.role}: {credit.name}

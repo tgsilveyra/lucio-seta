@@ -2,6 +2,7 @@ import styles from "./worksSection.module.scss";
 import clsx from "clsx";
 import { WorkListItem } from "@/app/components/workListItem/WorkListItem";
 import { getAbsolutePath } from "@/app/utils/getAbsolutePath";
+import { Work } from "@/app/types/work";
 
 async function getPageData() {
   const data = await fetch(getAbsolutePath("/api/data")).then((res) =>
@@ -14,13 +15,11 @@ async function getPageData() {
 export const WorksSection = async () => {
   const data = await getPageData();
 
-  console.log("DAAAAAAATA", data);
-
   return (
     <section className={clsx("grid-container", styles.worksSection)} id="works">
       <h2 className={styles.title}>Works</h2>
       <ul className={styles.worksList}>
-        {data.map((work) => (
+        {data.map((work: Work) => (
           <WorkListItem
             key={work.title}
             year={work.year}
