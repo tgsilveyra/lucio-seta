@@ -4,16 +4,20 @@
 
   --grid-padding-block: 90px;
   --grid-padding-inline: 30px;
+  --grid-columns: 4;
+  --grid-gap: 24px;
 
   @include respond-to(LARGE) {
     --grid-padding-block: 160px;
     --grid-padding-inline: 60px;
+    --grid-columns: 12;
+    --grid-gap: 20px;
   }
 }
 
 html {
   overflow-x: hidden;
-  font-family: var(--font-trajan-pro);
+  scroll-behavior: smooth;
 }
 
 html,
@@ -69,6 +73,9 @@ ul {
   max-width: var(--grid-max-width);
   margin: 0 auto;
   padding: var(--grid-padding-block) var(--grid-padding-inline);
+  display: grid;
+  grid-template-columns: repeat(var(--grid-columns), 1fr);
+  grid-gap: var(--grid-gap);
 }
 
 .overflow-hidden {
@@ -110,8 +117,10 @@ h5,
   font-size: clamp(1.25rem, 0.61vi + 1.1rem, 1.58rem);
 }
 
-.body {
+.body,
+p {
   font-family: var(--font-room);
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 1.2em;
   font-weight: 400;
 }

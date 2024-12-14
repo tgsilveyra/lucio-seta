@@ -1,82 +1,32 @@
-"use client";
-
 import styles from "./worksSection.module.scss";
-import { useEffect } from "react";
-import gsap from "gsap";
 import clsx from "clsx";
 import { WorkListItem } from "@/app/components/workListItem/WorkListItem";
+import { getAbsolutePath } from "@/app/utils/getAbsolutePath";
 
-const works = [
-  {
-    year: "2024",
-    title: "Unlocked",
-    description: "Dance Solo",
-    href: "/works/unlocked",
-  },
-  {
-    year: "2024",
-    title: "En Nombre del Viaje",
-    description: "Short Film",
-    href: "/works/en-nombre-del-viaje",
-  },
-  {
-    year: "2023",
-    title: "Sensing Volumes",
-    description: "Dance & Sound Workshop and Performance",
-    href: "/works/sensing-volumes",
-  },
-  {
-    year: "2023",
-    title: "Berlin Moves",
-    description: "(BACH) Inventionen | 2023 - Die Kleine Philarmonie",
-    href: "/works/berlin-moves",
-  },
-  {
-    year: "2023",
-    title: "CLEO",
-    description: "Digital Dance Opera",
-    href: "/works/cleo",
-  },
-  {
-    year: "20222023",
-    title: "STATE OF JOINT",
-    description: "Duett Dance Performance",
-    href: "/works/state-of-joint",
-  },
-  {
-    year: "2022",
-    title: "UPSTAIRS DOWNTOWN",
-    description: "Dance Performance - Film - Live Music",
-    href: "/works/upstairs-downtown",
-  },
-  {
-    year: "2019",
-    title: "SCHAF IM WOLFSPELZ",
-    description: "Dance Performance",
-    href: "/works/schaf-im-wolfspelz",
-  },
-];
+async function getPageData() {
+  const data = await fetch(getAbsolutePath("/api/data")).then((res) =>
+    res.json()
+  );
 
-export const WorksSection = () => {
-  useEffect(() => {
-    const ctx = gsap.context(() => {
-      // const timeline = gsap.timeline({ defaults: { ease: "power2.out" } });
-    });
+  return data.works;
+}
 
-    return () => ctx.revert();
-  }, []);
+export const WorksSection = async () => {
+  const data = await getPageData();
+
+  console.log("DAAAAAAATA", data);
 
   return (
-    <section className={clsx("grid-container", styles.worksSection)}>
+    <section className={clsx("grid-container", styles.worksSection)} id="works">
       <h2 className={styles.title}>Works</h2>
       <ul className={styles.worksList}>
-        {works.map((work) => (
+        {data.map((work) => (
           <WorkListItem
             key={work.title}
             year={work.year}
             title={work.title}
-            description={work.description}
-            href={work.href}
+            description={work.shortDescription}
+            href={`/works/${work.slug}`}
           />
         ))}
       </ul>

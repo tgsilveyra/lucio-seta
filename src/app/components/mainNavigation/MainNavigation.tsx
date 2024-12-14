@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./mainNavigation.module.scss";
 
 export const MainNavigation = () => {
@@ -10,16 +11,16 @@ export const MainNavigation = () => {
       </div>
       <ul className={styles.list}>
         <li className="main-navigation__list-item">
-          <a href="#">Works</a>
+          <Link href="/#works">Works</Link>
         </li>
         <li className="main-navigation__list-item">
-          <a href="#">Biography</a>
+          <Link href="/">Biography</Link>
         </li>
         <li className="main-navigation__list-item">
-          <a href="#">Teaching</a>
+          <Link href="#">Teaching</Link>
         </li>
         <li className="main-navigation__list-item">
-          <a href="#">Contact</a>
+          <Link href="">Contact</Link>
         </li>
       </ul>
       <div className={styles["social-links"]}>Social Links</div>
