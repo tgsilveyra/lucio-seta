@@ -54,6 +54,7 @@ export default async function WorkPage({ params }) {
         </div>
         <div className={styles.imageWrapper}>
           {mainImage && (
+            // eslint-disable-next-line @next/next/no-img-element
             <img
               className={styles.mainImage}
               src={`${process.env.BASE_PATH}/${mainImage.url}`}
