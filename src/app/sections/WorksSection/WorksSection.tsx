@@ -1,13 +1,11 @@
 import styles from "./worksSection.module.scss";
 import clsx from "clsx";
 import { WorkListItem } from "@/app/components/workListItem/WorkListItem";
-import { getAbsolutePath } from "@/app/utils/getAbsolutePath";
 import { Work } from "@/app/types/work";
+import { getData } from "@/app/utils/getData";
 
 async function getPageData() {
-  const data = await fetch(getAbsolutePath("/api/data")).then((res) =>
-    res.json()
-  );
+  const data = await getData().then((res) => res.json());
 
   return data.works;
 }

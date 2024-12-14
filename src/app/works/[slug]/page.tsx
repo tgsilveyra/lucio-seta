@@ -1,13 +1,12 @@
 import clsx from "clsx";
 import styles from "./page.module.scss";
-import { getAbsolutePath } from "@/app/utils/getAbsolutePath";
+
 import { createMarkup } from "@/app/utils/createMarkup";
 import { Work, WorkCredit } from "@/app/types/work";
+import { getData } from "@/app/utils/getData";
 
 export async function generateStaticParams() {
-  const data = await fetch(getAbsolutePath("/api/data")).then((res) =>
-    res.json()
-  );
+  const data = await getData().then((res) => res.json());
 
   return data.works.map((work: Work) => ({
     slug: work.slug,
@@ -15,9 +14,7 @@ export async function generateStaticParams() {
 }
 
 async function getPageData(slug: string) {
-  const data = await fetch(getAbsolutePath("/api/data")).then((res) =>
-    res.json()
-  );
+  const data = await getData().then((res) => res.json());
 
   return data.works.find((work: Work) => work.slug === slug);
 }
