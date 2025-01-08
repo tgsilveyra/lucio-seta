@@ -18,4 +18,6 @@ export type Work = {
   premiered: string;
   credits: WorkCredit[];
   mainImage: WorkMainImage;
+  images: WorkMainImage[];
+  trailer: string;
 };

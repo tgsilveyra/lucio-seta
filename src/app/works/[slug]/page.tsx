@@ -3,7 +3,7 @@ import clsx from "clsx";
 import styles from "./page.module.scss";
 
 import { createMarkup } from "@/app/utils/createMarkup";
-import { Work, WorkCredit } from "@/app/types/work";
+import { Work, WorkCredit, WorkMainImage } from "@/app/types/work";
 import { getData } from "@/app/utils/getData";
 
 export async function generateStaticParams() {
@@ -93,7 +93,7 @@ export default async function WorkPage({
         <ul className={styles.imagesList}>
           {images &&
             images.length > 0 &&
-            images.map((image: any, index: number) => (
+            images.map((image: WorkMainImage, index: number) => (
               <li
                 key={`${image.url}-${index}`}
                 className={styles.imageListItem}
