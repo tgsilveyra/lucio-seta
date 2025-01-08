@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import clsx from "clsx";
 import styles from "./page.module.scss";
 
@@ -25,7 +26,16 @@ export default async function WorkPage({
   params: { slug: string };
 }) {
   const data = await getPageData(params.slug);
-  const { title, description, subtitle, premiered, credits, mainImage } = data;
+  const {
+    title,
+    description,
+    subtitle,
+    premiered,
+    credits,
+    mainImage,
+    images,
+    trailer,
+  } = data;
 
   return (
     <div className={styles.page}>
@@ -33,6 +43,23 @@ export default async function WorkPage({
         <div className={styles.titleWrapper}>
           <h2 className={styles.title}>{title}</h2>
           <p className={styles.subtitle}>{subtitle}</p>
+          {trailer && (
+            <a href={trailer} target="_blank" className={styles.trailerWrapper}>
+              <span className={styles.playIcon}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 224.075 224.075"
+                >
+                  <path
+                    d="M216.2 99.23 20.5 1.63C18.4.53 15.7.03 13.6.03 5.7.53 0 6.33 0 14.23v195.7c0 10.5 11 17.3 20.5 12.6l195.7-98.1c10.5-5.2 10.5-19.9 0-25.2zm-188.4 88.1V36.73l150.6 75-150.6 75.6z"
+                    stroke="currentColor"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+              <p className={styles.trailerCopy}>Watch Teaser</p>
+            </a>
+          )}
         </div>
         <div className={styles.workInfo}>
           {credits.length > 0 && (
@@ -56,7 +83,6 @@ export default async function WorkPage({
         </div>
         <div className={styles.imageWrapper}>
           {mainImage && (
-            // eslint-disable-next-line @next/next/no-img-element
             <img
               className={styles.mainImage}
               src={`${process.env.BASE_PATH}/${mainImage.url}`}
@@ -64,6 +90,22 @@ export default async function WorkPage({
             />
           )}
         </div>
+        <ul className={styles.imagesList}>
+          {images &&
+            images.length > 0 &&
+            images.map((image: any, index: number) => (
+              <li
+                key={`${image.url}-${index}`}
+                className={styles.imageListItem}
+              >
+                <img
+                  className={styles.image}
+                  src={`${process.env.BASE_PATH}/${image.url}`}
+                  alt={image.alt}
+                />
+              </li>
+            ))}
+        </ul>
       </main>
     </div>
   );

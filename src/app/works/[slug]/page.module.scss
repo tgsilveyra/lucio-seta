@@ -27,6 +27,8 @@
   @include respond-to(LARGE) {
     grid-column: 1 / 5;
     grid-row: 2 / 3;
+    align-self: end;
+    margin-block-end: 40px;
   }
 }
 
@@ -54,6 +56,35 @@
   }
 }
 
+.imagesList {
+  grid-column: 1 / -1;
+  grid-row: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  width: 100%;
+
+  @include respond-to(LARGE) {
+    grid-column: 1 / -1;
+    grid-row: 3 / 4;
+    flex-direction: row;
+  }
+}
+
+.imageListItem {
+  @include respond-to(LARGE) {
+    flex: 0 0 calc(33.33% - 20px);
+  }
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .title {
   color: $colorVanillaIce;
 }
@@ -71,4 +102,34 @@
 .mainImage {
   overflow: hidden;
   width: 100%;
+}
+
+.trailerWrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin-block-start: 60px;
+  transition: opacity 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.playIcon {
+  border: 1px solid white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playIcon svg {
+  width: 14px;
+  height: 14px;
+  transform: translateX(2px);
 }

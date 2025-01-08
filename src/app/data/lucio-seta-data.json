@@ -26,10 +26,25 @@
           "name": "MARTIN CROCCO"
         }
       ],
+      "trailer": "https://www.youtube.com/watch?v=CUUA0Hpb1KQ",
       "mainImage": {
         "url": "assets/images/unlocked-01.jpg",
         "alt": "Unlocked performance image"
       },
+      "images": [
+        {
+          "url": "assets/images/unlocked-02.jpg",
+          "alt": "Unlocked performance image"
+        },
+        {
+          "url": "assets/images/unlocked-03.jpg",
+          "alt": "Unlocked performance image"
+        },
+        {
+          "url": "assets/images/unlocked-04.jpg",
+          "alt": "Unlocked performance image"
+        }
+      ],
       "video": {
         "description": "PERFORMANCE",
         "url": "https://www.youtube.com/watch?v=KR_mvG2uBfM"
@@ -155,9 +170,23 @@
         }
       ],
       "mainImage": {
-        "url": "assets/images/cleo.jpg",
+        "url": "assets/images/cleo.webp",
         "alt": "CLEO Digital Dance Opera image"
-      }
+      },
+      "images": [
+        {
+          "url": "assets/images/cleo-02.webp",
+          "alt": "CLEO Digital Dance Opera image"
+        },
+        {
+          "url": "assets/images/cleo-04.webp",
+          "alt": "CLEO Digital Dance Opera image"
+        },
+        {
+          "url": "assets/images/cleo-03.webp",
+          "alt": "CLEO Digital Dance Opera image"
+        }
+      ]
     },
     {
       "slug": "state-of-joint",
@@ -177,10 +206,37 @@
           "name": "MARTINCROCCO"
         }
       ],
+      "trailer": "https://www.youtube.com/watch?v=6u1ikunYeZE",
       "mainImage": {
-        "url": "assets/images/state-of-joint.jpg",
+        "url": "assets/images/state-of-joint.webp",
         "alt": "STATE OF JOINT Duett Dance Performance image"
-      }
+      },
+      "images": [
+        {
+          "url": "assets/images/state-of-joint-04.webp",
+          "alt": "STATE OF JOINT Duett Dance Performance image"
+        },
+        {
+          "url": "assets/images/state-of-joint-03.webp",
+          "alt": "STATE OF JOINT Duett Dance Performance image"
+        },
+        {
+          "url": "assets/images/state-of-joint-05.webp",
+          "alt": "STATE OF JOINT Duett Dance Performance image"
+        },
+        {
+          "url": "assets/images/state-of-joint-02.webp",
+          "alt": "STATE OF JOINT Duett Dance Performance image"
+        },
+        {
+          "url": "assets/images/state-of-joint-06.webp",
+          "alt": "STATE OF JOINT Duett Dance Performance image"
+        },
+        {
+          "url": "assets/images/state-of-joint-07.webp",
+          "alt": "STATE OF JOINT Duett Dance Performance image"
+        }
+      ]
     },
     {
       "slug": "upstairs-downtown",
@@ -228,9 +284,23 @@
         }
       ],
       "mainImage": {
-        "url": "assets/images/schaf-im-wolfspelz.jpg",
+        "url": "assets/images/schaf-im-wolfspelz.webp",
         "alt": "SCHAF IM WOLFSPELZ Dance Performance image"
-      }
+      },
+      "images": [
+        {
+          "url": "assets/images/schaf-im-wolfspelz-02.webp",
+          "alt": "SCHAF IM WOLFSPELZ Dance Performance image"
+        },
+        {
+          "url": "assets/images/schaf-im-wolfspelz-03.webp",
+          "alt": "SCHAF IM WOLFSPELZ Dance Performance image"
+        },
+        {
+          "url": "assets/images/schaf-im-wolfspelz-04.webp",
+          "alt": "SCHAF IM WOLFSPELZ Dance Performance image"
+        }
+      ]
     },
     {
       "slug": "quien-levanta-la-mano",
