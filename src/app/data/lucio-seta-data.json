@@ -1,6 +1,52 @@
 {
   "works": [
     {
+      "slug": "out-of-whack",
+      "title": "Out Of Whack",
+      "subtitle": "2024 - Dance Performance",
+      "year": "2024",
+      "shortDescription": "Dance Performance",
+      "description": "<p><b>“OUT OF WHACK”</b> is a medium-length dance performance that blends elements from urban, contemporary dance and theatre. Between pre-recorded soundscapes accompanying the choreography, the stage becomes a microcosm of modern society and manifests the tension between authority and autonomy. OUT OF WHACK aims to reveal stories of our bodies shaped by conformity and tradition but also as places of resistance and visceral self-expression.</p>",
+      "premiered": "PREMIERED AT HOFFESTSPIELE FESTIVAL EXPEDITION METROPOLIS, BERLIN (2024) SUPPORTED BY EXPEDITION METROPOLIS RESIDENCY PROGRAMME",
+      "credits": [
+        {
+          "role": "Choreographer",
+          "name": "SOFIA SETA"
+        },
+        {
+          "role": "Performers",
+          "name": "LUCIO SETA, KARLOTTA FRANK & JOHN SHADES"
+        },
+        {
+          "role": "Sound designer",
+          "name": "MARTIN CROCCO"
+        }
+      ],
+      "trailer": "https://www.youtube.com/watch?v=8Iam1VJTWLc",
+      "mainImage": {
+        "url": "assets/images/out-of-whack.jpg",
+        "alt": "Out Of Whack performance image"
+      },
+      "images": [
+        {
+          "url": "assets/images/out-of-whack-02.webp",
+          "alt": "Out Of Whack performance image"
+        },
+        {
+          "url": "assets/images/out-of-whack-03.webp",
+          "alt": "Out Of Whack performance image"
+        },
+        {
+          "url": "assets/images/out-of-whack-04.webp",
+          "alt": "Out Of Whack performance image"
+        }
+      ],
+      "video": {
+        "description": "PERFORMANCE",
+        "url": "https://www.youtube.com/watch?v=KR_mvG2uBfM"
+      }
+    },
+    {
       "slug": "unlocked",
       "title": "Unlocked",
       "subtitle": "2024 - Dance Solo",
