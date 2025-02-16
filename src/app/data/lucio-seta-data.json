@@ -183,7 +183,8 @@
       "mainImage": {
         "url": "assets/images/bach.png",
         "alt": "Sensing Volumes performance image"
-      }
+      },
+      "trailer": "https://www.youtube.com/watch?v=NYmuF1mug9w"
     },
     {
       "slug": "cleo",
@@ -232,7 +233,8 @@
           "url": "assets/images/cleo-03.webp",
           "alt": "CLEO Digital Dance Opera image"
         }
-      ]
+      ],
+      "trailer": "https://www.youtube.com/watch?v=vh4EStGsgpo"
     },
     {
       "slug": "state-of-joint",
