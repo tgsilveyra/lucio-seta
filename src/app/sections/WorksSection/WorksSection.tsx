@@ -17,7 +17,7 @@ export const WorksSection = async () => {
     <section className={clsx("grid-container", styles.worksSection)} id="works">
       <h2 className={styles.title}>Works</h2>
       <ul className={styles.worksList}>
-        {data.map((work: Work) => (
+        {data.mainWorks.map((work: Work) => (
           <WorkListItem
             key={work.title}
             year={work.year}

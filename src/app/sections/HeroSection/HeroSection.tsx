@@ -39,12 +39,9 @@ export const HeroSection = () => {
             Dancer | Teacher | Choreographer
           </h2>
         </div>
-        <h3 className={styles.thirdTitle}>
-          🚧&nbsp;&nbsp;&nbsp;Page Under Construction&nbsp;&nbsp;🚧
-        </h3>
       </div>
       <Video
-        src={`${process.env.BASE_PATH}/hero-video.mp4`}
+        src={`${process.env.BASE_PATH}/videoplayback.mp4`}
         className={styles.heroVideo}
         ref={videoRef}
       />

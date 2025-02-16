@@ -9,7 +9,9 @@ import { getData } from "@/app/utils/getData";
 export async function generateStaticParams() {
   const data = await getData().then((res) => res.json());
 
-  return data.works.map((work: Work) => ({
+  const allWorks = [...data.works.mainWorks];
+
+  return allWorks.map((work: Work) => ({
     slug: work.slug,
   }));
 }
@@ -17,7 +19,7 @@ export async function generateStaticParams() {
 async function getPageData(slug: string) {
   const data = await getData().then((res) => res.json());
 
-  return data.works.find((work: Work) => work.slug === slug);
+  return data.works.mainWorks.find((work: Work) => work.slug === slug);
 }
 
 export default async function WorkPage({
