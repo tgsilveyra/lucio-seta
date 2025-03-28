@@ -37,11 +37,13 @@ export default async function WorkPage({
     mainImage,
     images,
     trailer,
+    watchLabel,
   } = data;
 
   return (
     <div className={styles.page}>
       <main className={clsx("grid-container", styles.main)}>
+        <img src="assets/images/bg.jpeg" alt="" />
         <div className={styles.titleWrapper}>
           <h2 className={styles.title}>{title}</h2>
           <p className={styles.subtitle}>{subtitle}</p>
@@ -59,7 +61,7 @@ export default async function WorkPage({
                   />
                 </svg>
               </span>
-              <p className={styles.trailerCopy}>Watch Teaser</p>
+              <p className={styles.trailerCopy}>{watchLabel}</p>
             </a>
           )}
         </div>

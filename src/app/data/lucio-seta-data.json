@@ -2,21 +2,25 @@
   "works": {
     "mainWorks": [
       {
-        "slug": "video-performance",
-        "title": "Video Performance",
+        "slug": "the-straight-path",
+        "title": "The Straight Path",
         "subtitle": "2025 - Video Performance",
         "year": "2025",
         "shortDescription": "Video Performance",
-        "description": "<p>The video presents a performance set in the agitated market of \"La Medina\" of Tunis, a labyrinthine space known for its narrow Arab-style streets.The artist explores this contrast through a meandering walk, interacting with the surrounding air, imagery and textures. This journey highlights the unique solitude  atmosphere of the market at nightfall contrasting the hectic pace during the day.</p>",
-        "premiered": "Market \"La Medina\", Tunez",
+        "description": "<p>The Straight Path follows a lone dancer navigating the labyrinthine streets of Tunis where the promised simplicity of a straight path dissolves into a dance of setbacks and struggle. In his relentless journey, the dance wryly exposes the tangled, unpredictable nature of life each misstep, trip, and spin echoes life’s defiance against smooth journeys, reflecting the harsh reality behind all promises of easy success and divine guidance..</p>",
+        "premiered": "LOCATION: Market \"La Medina\", Tunez",
         "credits": [
           {
-            "role": "Concepto",
-            "name": "LUCIO SETA & IMAN KAY"
+            "role": "Director",
+            "name": "IMAN KAY"
           },
           {
-            "role": "Choreographer & Performer",
-            "name": "Lucio SETA"
+            "role": "Concept",
+            "name": "Lucio Seta & Iman Kay"
+          },
+          {
+            "role": "Choreography & Performer",
+            "name": "Lucio Seta"
           },
           {
             "role": "Music",
@@ -27,6 +31,7 @@
             "name": "Iman Kay"
           }
         ],
+        "watchLabel": "Watch Video",
         "trailer": "https://www.youtube.com/watch?v=rVsFuDkAr3M",
         "mainImage": {
           "url": "assets/images/video-performance.webp",
@@ -34,56 +39,10 @@
         }
       },
       {
-        "slug": "out-of-whack",
-        "title": "Out Of Whack",
-        "subtitle": "2024 - Dance Performance",
-        "year": "2024",
-        "shortDescription": "Dance Performance",
-        "description": "<p><b>“OUT OF WHACK”</b> is a medium-length dance performance that blends elements from urban, contemporary dance and theatre. Between pre-recorded soundscapes accompanying the choreography, the stage becomes a microcosm of modern society and manifests the tension between authority and autonomy. OUT OF WHACK aims to reveal stories of our bodies shaped by conformity and tradition but also as places of resistance and visceral self-expression.</p>",
-        "premiered": "PREMIERED AT HOFFESTSPIELE FESTIVAL EXPEDITION METROPOLIS, BERLIN (2024) SUPPORTED BY EXPEDITION METROPOLIS RESIDENCY PROGRAMME",
-        "credits": [
-          {
-            "role": "Choreographer",
-            "name": "SOFIA SETA"
-          },
-          {
-            "role": "Performers",
-            "name": "LUCIO SETA, KARLOTTA FRANK & JOHN SHADES"
-          },
-          {
-            "role": "Sound designer",
-            "name": "MARTIN CROCCO"
-          }
-        ],
-        "trailer": "https://www.youtube.com/watch?v=8Iam1VJTWLc",
-        "mainImage": {
-          "url": "assets/images/out-of-whack.jpg",
-          "alt": "Out Of Whack performance image"
-        },
-        "images": [
-          {
-            "url": "assets/images/out-of-whack-02.webp",
-            "alt": "Out Of Whack performance image"
-          },
-          {
-            "url": "assets/images/out-of-whack-03.webp",
-            "alt": "Out Of Whack performance image"
-          },
-          {
-            "url": "assets/images/out-of-whack-04.webp",
-            "alt": "Out Of Whack performance image"
-          }
-        ],
-        "video": {
-          "description": "PERFORMANCE",
-          "url": "https://www.youtube.com/watch?v=KR_mvG2uBfM"
-        }
-      },
-      {
         "slug": "unlocked",
         "title": "Unlocked",
-        "subtitle": "2024 - Dance Solo",
-        "year": "2024",
+        "subtitle": "2024 2025 - Dance Solo",
+        "year": "2024 2025",
         "shortDescription": "Dance Solo",
         "description": "<p><b>Unlocked</b> is a solo dance piece, based on a 29 year body record of strong emotional experiences that shaped the body to express itself in this way.</p><p>What is the meaning of this body in movement?</p><p>How much do these emotional experiences shape the body and influence its expression through movement?</p><p>The dance piece tells an inner journey where the memory of the body navigates to past states of rage and despair. It's not about seeking to be overshadowed by the weight of trauma. On the contrary, the performer aims to shed light on the triumphs and successes that emerge from the human body's capacity to heal and overcome adversity through dance.</p>",
         "premiered": "PREMIERED AT EXPEDITION METROPOLIS THEATER BERLIN (2024)",
@@ -98,13 +57,22 @@
           },
           {
             "role": "Outside eye",
-            "name": "JESUS GUIRALDI"
+            "name": "JESUS GUIRALDI & EVA Georgitsopoulou"
           },
           {
             "role": "Sound designer",
             "name": "MARTIN CROCCO"
+          },
+          {
+            "role": "Lights",
+            "name": "Lucio Seta"
+          },
+          {
+            "role": "Costumes",
+            "name": "Lucio Seta"
           }
         ],
+        "watchLabel": "Watch Teaser",
         "trailer": "https://www.youtube.com/watch?v=CUUA0Hpb1KQ",
         "mainImage": {
           "url": "assets/images/unlocked-01.jpg",
@@ -130,61 +98,89 @@
         }
       },
       {
-        "slug": "en-nombre-del-viaje",
-        "title": "En Nombre del Viaje",
-        "subtitle": "2024 - Short film",
-        "year": "2024",
-        "shortDescription": "Short film",
-        "description": "<p><b>The name of the journey</b> speaks about migration and one's own land. About the resignifcation of space and the others, who confirm that the space is worth only because we fill it together.</p><p>The plot is immersed in the point of view of the one who left, and does not know when to return. It is a short film that suffers the uprooting beyond the privilege of being able to leave. The guilt of leaving those who grow old elsewhere and the pressure to grow up invade the light of the week, while Manu understands a possible path towards something that is still unknown to him, but familiar. And, thus, he approaches that which moved him in some past time.</p><p>Does it still belong?</p>",
-        "premiered": "PREMIERE OF THE FILM JULY (2024)",
+        "slug": "schaf-im-wolfspelz",
+        "title": "SCHAF IM WOLFSPELZ",
+        "subtitle": "2019 2024 - Dance Performance",
+        "year": "2019 2024",
+        "shortDescription": "Dance Performance",
+        "description": "<p>Born into a world of madness, a world of insane wars, unleashed by the reaction of crazy people to their anger and fear. How do we face different realities in the same situation we live in? The performance is about stereotypical thinking and nervous convulsions. Being forced into a role and at the same time finding strategies to survive this madness. It's about my reality and your reality. What happens when your world is turned upside down?</p>",
+        "premiered": " PERFORMED at KULTURSOMMER WIEN (AUS) 2024, AT THEATER FORUM KREUZBERG BERLIN (2019), THEATER HAUS MITTE BERLIN (2019), THEATER EXPEDITION METROPOLIS BERLIN (2019), CYRCUS MOND BERLIN (2019) and SUMMER INTENSIVE FESTIVAL LISBOA (2019)U",
         "credits": [
           {
-            "role": "DIRECTOR",
-            "name": "NICOLAS RIVAS"
+            "role": "CHOREOGRAPHED BY",
+            "name": "VIOLA MIKOLASCH"
           },
           {
-            "role": "MOVEMENT DIRECTOR",
-            "name": "LUCIO SETA"
-          },
-          {
-            "role": "ACTORS - PERFORMERS",
-            "name": "FRANCO TOLEDO AND LUCIO SETA"
-          },
-          {
-            "role": "PHOTOGRAPHY DIRECTOR",
-            "name": "NICOLAS GOMBINSKY"
+            "role": "PERFORMERS",
+            "name": "JAN EISENHART, KARLOTTA FRANK, KEIVIN BENAVIDES, KIKI HAVEMANN, LUCIO SETA, PHILIPPE MARIANI DUCASSE AND ROCIO GOTTSCHALCK"
           }
         ],
         "mainImage": {
-          "url": "assets/images/en-nombre-del-viaje-01.png",
-          "alt": "Unlocked performance image"
-        }
+          "url": "assets/images/schaf-im-wolfspelz.webp",
+          "alt": "SCHAF IM WOLFSPELZ Dance Performance image"
+        },
+        "watchLabel": "Watch Teaser",
+        "trailer": "https://www.youtube.com/watch?v=keVj8u71M1s",
+        "images": [
+          {
+            "url": "assets/images/schaf-im-wolfspelz-02.webp",
+            "alt": "SCHAF IM WOLFSPELZ Dance Performance image"
+          },
+          {
+            "url": "assets/images/schaf-im-wolfspelz-03.webp",
+            "alt": "SCHAF IM WOLFSPELZ Dance Performance image"
+          },
+          {
+            "url": "assets/images/schaf-im-wolfspelz-04.webp",
+            "alt": "SCHAF IM WOLFSPELZ Dance Performance image"
+          }
+        ]
       },
       {
-        "slug": "sensing-volumes",
-        "title": "Sensing Volumes",
-        "subtitle": "2023 - Dance & Sound Workshop and Performance",
-        "year": "2023",
-        "shortDescription": "Dance & Sound Workshop and Performance",
-        "description": "<p>The <b>SENSING VOLUMES</b> project includes an interactive installation where participants can explore their senses, as well as three one-hour-long performances where a solo dancer engages with the installation and showcases its potential. The installation is designed to translate body movement on stage into sound, as well as sound into real-time lighting and visuals.This helps the audience to experience the performance as a whole, giving multiple pathways for exploring and participating in the work, despite any impairments or preferences across the senses.</p><p>A big textile sculpture made of ropes will be an analog complement to the digital installation and can be moved and transformed by the audience. These elements provide a soft, tactile experience, inviting to take time and observe the overall playground.</p><p>The artists are designing performances, installations and workshops where sound, visual and movement become part of the same vocabulary.</p>",
-        "premiered": "PERFORMED AT UFER STUDIOS STUDIO 1 BERLIN (2023)",
+        "slug": "out-of-whack",
+        "title": "Out Of Whack",
+        "subtitle": "2024 - Dance Performance",
+        "year": "2024",
+        "shortDescription": "Dance Performance",
+        "description": "<p><b>“OUT OF WHACK”</b> is a medium-length dance performance that blends elements from urban, contemporary dance and theatre. Between pre-recorded soundscapes accompanying the choreography, the stage becomes a microcosm of modern society and manifests the tension between authority and autonomy. OUT OF WHACK aims to reveal stories of our bodies shaped by conformity and tradition but also as places of resistance and visceral self-expression.</p>",
+        "premiered": "PREMIERED AT HOFFESTSPIELE FESTIVAL EXPEDITION METROPOLIS, BERLIN (2024) SUPPORTED BY EXPEDITION METROPOLIS RESIDENCY PROGRAMME",
         "credits": [
           {
-            "role": "CONCEPTS",
-            "name": "LUCIO SETA, CLARA ESCUDERO AND FREDDY"
+            "role": "Choreographer",
+            "name": "SOFIA SETA"
           },
           {
-            "role": "CHOREOGRAPHERS",
-            "name": "LUCIO SETA, CLARA ESCUDERO AND FREDDY"
+            "role": "Performers",
+            "name": "LUCIO SETA, KARLOTTA FRANK & JOHN SHADES"
           },
           {
-            "role": "SOUND AND PERFORMERS",
-            "name": "LUCIO SETA, CLARA ESCUDERO AND FREDDY"
+            "role": "Sound designer",
+            "name": "MARTIN CROCCO"
           }
         ],
+        "watchLabel": "Watch Teaser",
+        "trailer": "https://www.youtube.com/watch?v=8Iam1VJTWLc",
         "mainImage": {
-          "url": "assets/images/sensing-volumes-01.png",
-          "alt": "Sensing Volumes performance image"
+          "url": "assets/images/out-of-whack.jpg",
+          "alt": "Out Of Whack performance image"
+        },
+        "images": [
+          {
+            "url": "assets/images/out-of-whack-02.webp",
+            "alt": "Out Of Whack performance image"
+          },
+          {
+            "url": "assets/images/out-of-whack-03.webp",
+            "alt": "Out Of Whack performance image"
+          },
+          {
+            "url": "assets/images/out-of-whack-04.webp",
+            "alt": "Out Of Whack performance image"
+          }
+        ],
+        "video": {
+          "description": "PERFORMANCE",
+          "url": "https://www.youtube.com/watch?v=KR_mvG2uBfM"
         }
       },
       {
@@ -217,6 +213,7 @@
           "url": "assets/images/bach.png",
           "alt": "Sensing Volumes performance image"
         },
+        "watchLabel": "Watch Teaser",
         "trailer": "https://www.youtube.com/watch?v=NYmuF1mug9w"
       },
       {
@@ -267,13 +264,14 @@
             "alt": "CLEO Digital Dance Opera image"
           }
         ],
+        "watchLabel": "Watch Teaser",
         "trailer": "https://www.youtube.com/watch?v=vh4EStGsgpo"
       },
       {
         "slug": "state-of-joint",
         "title": "STATE OF JOINT",
-        "subtitle": "2022 - 2023 - Duett Dance Performance",
-        "year": "2022 2023",
+        "subtitle": "2022 - 2023 - 2024 - Duett Dance Performance",
+        "year": "2022 2023 2024",
         "shortDescription": "Duett Dance Performance",
         "description": "<p>State of joint captures a biographical story and explores the bond dynamics between brother and sister. Bringing in elements of contemporary and urban dance, acrobatics-partnering and physical theater, the piece explores and depictures feelings of joy, companionship, loneliness and separateness in the context of a pandemic world crisis. Through different soundscapes and images we embody memories from our childhood, teenagehood until our current reality embracing dance as a powerful medium of expression and its potential to tell a story based on real events.</p>",
         "premiered": "PREMIERED AT HOFFESTSPIELE FESTIVAL EXPEDITION METROPOLIS, BERLIN (2022); PERFORMED AT FRAGMENTOS MANDRIL THEATER BUENOS AIRES (2023); KULTURSOMMER WIEN, AUSTRIA (2023)",
@@ -287,6 +285,7 @@
             "name": "MARTINCROCCO"
           }
         ],
+        "watchLabel": "Watch Teaser",
         "trailer": "https://www.youtube.com/watch?v=6u1ikunYeZE",
         "mainImage": {
           "url": "assets/images/state-of-joint.webp",
@@ -346,44 +345,7 @@
           "alt": "UPSTAIRS DOWNTOWN Dance Performance image"
         }
       },
-      {
-        "slug": "schaf-im-wolfspelz",
-        "title": "SCHAF IM WOLFSPELZ",
-        "subtitle": "2019 - Dance Performance",
-        "year": "2019",
-        "shortDescription": "Dance Performance",
-        "description": "<p>Born into a world of madness, a world of insane wars, unleashed by the reaction of crazy people to their anger and fear. How do we face different realities in the same situation we live in? The performance is about stereotypical thinking and nervous convulsions. Being forced into a role and at the same time finding strategies to survive this madness. It's about my reality and your reality. What happens when your world is turned upside down?</p>",
-        "premiered": " PERFORMED at KULTURSOMMER WIEN (AUS) 2024, AT THEATER FORUM KREUZBERG BERLIN (2019), THEATER HAUS MITTE BERLIN (2019), THEATER EXPEDITION METROPOLIS BERLIN (2019), CYRCUS MOND BERLIN (2019) and SUMMER INTENSIVE FESTIVAL LISBOA (2019)U",
-        "credits": [
-          {
-            "role": "CHOREOGRAPHED BY",
-            "name": "VIOLA MIKOLASCH"
-          },
-          {
-            "role": "PERFORMERS",
-            "name": "JAN EISENHART, KARLOTTA FRANK, KEIVIN BENAVIDES, KIKI HAVEMANN, LUCIO SETA, PHILIPPE MARIANI DUCASSE AND ROCIO GOTTSCHALCK"
-          }
-        ],
-        "mainImage": {
-          "url": "assets/images/schaf-im-wolfspelz.webp",
-          "alt": "SCHAF IM WOLFSPELZ Dance Performance image"
-        },
-        "trailer": "https://www.youtube.com/watch?v=keVj8u71M1s",
-        "images": [
-          {
-            "url": "assets/images/schaf-im-wolfspelz-02.webp",
-            "alt": "SCHAF IM WOLFSPELZ Dance Performance image"
-          },
-          {
-            "url": "assets/images/schaf-im-wolfspelz-03.webp",
-            "alt": "SCHAF IM WOLFSPELZ Dance Performance image"
-          },
-          {
-            "url": "assets/images/schaf-im-wolfspelz-04.webp",
-            "alt": "SCHAF IM WOLFSPELZ Dance Performance image"
-          }
-        ]
-      },
+
       {
         "slug": "quien-levanta-la-mano",
         "title": "Quien Levanta la mano",
@@ -405,6 +367,66 @@
         "mainImage": {
           "url": "assets/images/quien-levanta-la-mano.png",
           "alt": "Quien Levanta la mano Dance Performance image"
+        }
+      }
+    ],
+    "otherWorks": [
+      {
+        "slug": "en-nombre-del-viaje",
+        "title": "En Nombre del Viaje",
+        "subtitle": "2024 - Short film",
+        "year": "2024",
+        "shortDescription": "Short film",
+        "description": "<p><b>The name of the journey</b> speaks about migration and one's own land. About the resignifcation of space and the others, who confirm that the space is worth only because we fill it together.</p><p>The plot is immersed in the point of view of the one who left, and does not know when to return. It is a short film that suffers the uprooting beyond the privilege of being able to leave. The guilt of leaving those who grow old elsewhere and the pressure to grow up invade the light of the week, while Manu understands a possible path towards something that is still unknown to him, but familiar. And, thus, he approaches that which moved him in some past time.</p><p>Does it still belong?</p>",
+        "premiered": "PREMIERE OF THE FILM JULY (2024)",
+        "credits": [
+          {
+            "role": "DIRECTOR",
+            "name": "NICOLAS RIVAS"
+          },
+          {
+            "role": "MOVEMENT DIRECTOR",
+            "name": "LUCIO SETA"
+          },
+          {
+            "role": "ACTORS - PERFORMERS",
+            "name": "FRANCO TOLEDO AND LUCIO SETA"
+          },
+          {
+            "role": "PHOTOGRAPHY DIRECTOR",
+            "name": "NICOLAS GOMBINSKY"
+          }
+        ],
+        "mainImage": {
+          "url": "assets/images/en-nombre-del-viaje-01.png",
+          "alt": "Unlocked performance image"
+        }
+      },
+      {
+        "slug": "sensing-volumes",
+        "title": "Sensing Volumes",
+        "subtitle": "2023 - Dance & Sound Workshop and Performance",
+        "year": "2023",
+        "shortDescription": "Dance & Sound Workshop and Performance",
+        "description": "<p>The <b>SENSING VOLUMES</b> project includes an interactive installation where participants can explore their senses, as well as three one-hour-long performances where a solo dancer engages with the installation and showcases its potential. The installation is designed to translate body movement on stage into sound, as well as sound into real-time lighting and visuals.This helps the audience to experience the performance as a whole, giving multiple pathways for exploring and participating in the work, despite any impairments or preferences across the senses.</p><p>A big textile sculpture made of ropes will be an analog complement to the digital installation and can be moved and transformed by the audience. These elements provide a soft, tactile experience, inviting to take time and observe the overall playground.</p><p>The artists are designing performances, installations and workshops where sound, visual and movement become part of the same vocabulary.</p>",
+        "premiered": "PERFORMED AT UFER STUDIOS STUDIO 1 BERLIN (2023)",
+        "credits": [
+          {
+            "role": "CONCEPTS",
+            "name": "LUCIO SETA, CLARA ESCUDERO AND FREDDY"
+          },
+          {
+            "role": "CHOREOGRAPHERS",
+            "name": "LUCIO SETA, CLARA ESCUDERO AND FREDDY"
+          },
+          {
+            "role": "SOUND AND PERFORMERS",
+            "name": "LUCIO SETA, CLARA ESCUDERO AND FREDDY"
+          }
+        ],
+        "mainImage": {
+          "url": "assets/images/sensing-volumes-01.png",
+          "alt": "Sensing Volumes performance image"
         }
       }
     ]

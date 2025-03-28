@@ -14,6 +14,9 @@ export const MainNavigation = () => {
           <Link href="/#works">Works</Link>
         </li>
         <li className="main-navigation__list-item">
+          <Link href="/#other-works">Other Works/Participations</Link>
+        </li>
+        <li className="main-navigation__list-item">
           <Link href="/">Biography</Link>
         </li>
         <li className="main-navigation__list-item">

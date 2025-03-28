@@ -1,5 +1,6 @@
 .main {
   row-gap: 40px;
+  // background-image: url("");
 
   @include respond-to(LARGE) {
     row-gap: 60px;

@@ -3,12 +3,12 @@ import localFont from "next/font/local";
 export const fontTrajanPro = localFont({
   src: [
     {
-      path: "../../../public/assets/fonts/TrajanPro-Bold.woff",
+      path: "../../../public/assets/fonts/VerbCondRegular.woff2",
       weight: "700",
       style: "normal",
     },
     {
-      path: "../../../public/assets/fonts/TrajanPro-Regular.woff",
+      path: "../../../public/assets/fonts/VerbCondRegular.woff2",
       weight: "400",
       style: "normal",
     },
@@ -17,6 +17,24 @@ export const fontTrajanPro = localFont({
   variable: "--font-trajan-pro",
   preload: true,
 });
+
+// export const fontTrajanPro = localFont({
+//   src: [
+//     {
+//       path: "../../../public/assets/fonts/TrajanPro-Bold.woff",
+//       weight: "700",
+//       style: "normal",
+//     },
+//     {
+//       path: "../../../public/assets/fonts/TrajanPro-Regular.woff",
+//       weight: "400",
+//       style: "normal",
+//     },
+//   ],
+//   display: "swap",
+//   variable: "--font-trajan-pro",
+//   preload: true,
+// });
 
 export const fontRoom = localFont({
   src: [
