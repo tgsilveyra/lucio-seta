@@ -43,7 +43,6 @@ export default async function WorkPage({
   return (
     <div className={styles.page}>
       <main className={clsx("grid-container", styles.main)}>
-        <img src="assets/images/bg.jpeg" alt="" />
         <div className={styles.titleWrapper}>
           <h2 className={styles.title}>{title}</h2>
           <p className={styles.subtitle}>{subtitle}</p>
