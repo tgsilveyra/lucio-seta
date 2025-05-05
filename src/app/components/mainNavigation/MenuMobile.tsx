@@ -49,11 +49,13 @@ export const MenuMobile = () => {
         >
           <li className="main-navigation__list-item">
             <Link href="/#works" onClick={onLinkClick}>
-              Works
+              Main Works
             </Link>
           </li>
           <li className="main-navigation__list-item">
-            <Link href="/#other-works">Other Works/Participations</Link>
+            <Link href="/#other-works" onClick={onLinkClick}>
+              Other Works/Participation&apos;s
+            </Link>
           </li>
           <li className="main-navigation__list-item">
             <Link href="/" onClick={onLinkClick}>
