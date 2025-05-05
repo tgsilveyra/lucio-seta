@@ -9,7 +9,9 @@ import { getData } from "@/app/utils/getData";
 export async function generateStaticParams() {
   const data = await getData().then((res) => res.json());
 
-  const allWorks = [...data.works.mainWorks];
+  const allWorks = [...data.works.mainWorks, ...data.works.otherWorks];
+
+  console.log(data.works.otherWorks);
 
   return allWorks.map((work: Work) => ({
     slug: work.slug,
@@ -19,7 +21,9 @@ export async function generateStaticParams() {
 async function getPageData(slug: string) {
   const data = await getData().then((res) => res.json());
 
-  return data.works.mainWorks.find((work: Work) => work.slug === slug);
+  const allWorks = [...data.works.mainWorks, ...data.works.otherWorks];
+
+  return allWorks.find((work: Work) => work.slug === slug);
 }
 
 export default async function WorkPage({
@@ -37,7 +41,7 @@ export default async function WorkPage({
     mainImage,
     images,
     trailer,
-    watchLabel,
+    trailerThumbnail,
   } = data;
 
   return (
@@ -60,38 +64,46 @@ export default async function WorkPage({
                   />
                 </svg>
               </span>
-              <p className={styles.trailerCopy}>{watchLabel}</p>
+              {trailerThumbnail && (
+                <img
+                  className={styles.trailerThumbnail}
+                  src={`${process.env.BASE_PATH}/${trailerThumbnail}`}
+                  alt="video trailer thumbnail"
+                />
+              )}
+              {/* <p className={styles.trailerCopy}>{watchLabel}</p> */}
             </a>
           )}
+          <div className={styles.workInfo}>
+            {credits.length > 0 && (
+              <ul className={styles.worksList}>
+                {credits.map((credit: WorkCredit, index: number) => (
+                  <li key={`${credit.name}-${index}`}>
+                    <p>
+                      {credit.role}: {credit.name}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            )}
+            {premiered && <p className={styles.premiered}>{premiered}</p>}
+          </div>
         </div>
-        <div className={styles.workInfo}>
-          {credits.length > 0 && (
-            <ul className={styles.worksList}>
-              {credits.map((credit: WorkCredit, index: number) => (
-                <li key={`${credit.name}-${index}`}>
-                  <p>
-                    {credit.role}: {credit.name}
-                  </p>
-                </li>
-              ))}
-            </ul>
-          )}
-          {premiered && <p className={styles.premiered}>{premiered}</p>}
-        </div>
+
         <div className={styles.workContent}>
           <div
             className={styles.description}
             dangerouslySetInnerHTML={createMarkup(description)}
           ></div>
-        </div>
-        <div className={styles.imageWrapper}>
-          {mainImage && (
-            <img
-              className={styles.mainImage}
-              src={`${process.env.BASE_PATH}/${mainImage.url}`}
-              alt={mainImage.alt}
-            />
-          )}
+          <div className={styles.imageWrapper}>
+            {mainImage && (
+              <img
+                className={styles.mainImage}
+                src={`${process.env.BASE_PATH}/${mainImage.url}`}
+                alt={mainImage.alt}
+              />
+            )}
+          </div>
         </div>
         <ul className={styles.imagesList}>
           {images &&

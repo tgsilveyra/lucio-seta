@@ -33,6 +33,7 @@
         ],
         "watchLabel": "Watch Video",
         "trailer": "https://www.youtube.com/watch?v=rVsFuDkAr3M",
+        "trailerThumbnail": "assets/images/video-performance.webp",
         "mainImage": {
           "url": "assets/images/video-performance.webp",
           "alt": "Out Of Whack performance image"
@@ -74,6 +75,7 @@
         ],
         "watchLabel": "Watch Teaser",
         "trailer": "https://www.youtube.com/watch?v=CUUA0Hpb1KQ",
+        "trailerThumbnail": "assets/images/unlocked-video-thumbnail.jpg",
         "mainImage": {
           "url": "assets/images/unlocked-01.jpg",
           "alt": "Unlocked performance image"
@@ -121,6 +123,7 @@
         },
         "watchLabel": "Watch Teaser",
         "trailer": "https://www.youtube.com/watch?v=keVj8u71M1s",
+        "trailerThumbnail": "assets/images/schaf-im-wolfspelz-03.webp",
         "images": [
           {
             "url": "assets/images/schaf-im-wolfspelz-02.webp",
@@ -160,6 +163,7 @@
         ],
         "watchLabel": "Watch Teaser",
         "trailer": "https://www.youtube.com/watch?v=8Iam1VJTWLc",
+        "trailerThumbnail": "assets/images/out-of-whack-03.webp",
         "mainImage": {
           "url": "assets/images/out-of-whack.jpg",
           "alt": "Out Of Whack performance image"
@@ -214,7 +218,8 @@
           "alt": "Sensing Volumes performance image"
         },
         "watchLabel": "Watch Teaser",
-        "trailer": "https://www.youtube.com/watch?v=NYmuF1mug9w"
+        "trailer": "https://www.youtube.com/watch?v=NYmuF1mug9w",
+        "trailerThumbnail": "assets/images/bach-video-thumbnail.avif"
       },
       {
         "slug": "cleo",
@@ -265,7 +270,8 @@
           }
         ],
         "watchLabel": "Watch Teaser",
-        "trailer": "https://www.youtube.com/watch?v=vh4EStGsgpo"
+        "trailer": "https://www.youtube.com/watch?v=vh4EStGsgpo",
+        "trailerThumbnail": "assets/images/cleo-video-thumbnail.jpg"
       },
       {
         "slug": "state-of-joint",
@@ -287,6 +293,7 @@
         ],
         "watchLabel": "Watch Teaser",
         "trailer": "https://www.youtube.com/watch?v=6u1ikunYeZE",
+        "trailerThumbnail": "assets/images/state-of-joint-0.webp",
         "mainImage": {
           "url": "assets/images/state-of-joint.webp",
           "alt": "STATE OF JOINT Duett Dance Performance image"
@@ -345,7 +352,6 @@
           "alt": "UPSTAIRS DOWNTOWN Dance Performance image"
         }
       },
-
       {
         "slug": "quien-levanta-la-mano",
         "title": "Quien Levanta la mano",

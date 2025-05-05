@@ -22,14 +22,9 @@
 }
 
 .workInfo {
-  grid-column: 1 / -1;
-  grid-row: 4 / 5;
-
+  margin-block-start: 60px;
   @include respond-to(LARGE) {
-    grid-column: 1 / 5;
-    grid-row: 2 / 3;
-    align-self: end;
-    margin-block-end: 40px;
+    margin-block-start: 120px;
   }
 }
 
@@ -113,6 +108,9 @@
   margin-block-start: 60px;
   transition: opacity 0.3s;
   cursor: pointer;
+  position: relative;
+  aspect-ratio: 16 / 9;
+  justify-content: center;
 
   &:hover {
     opacity: 0.8;
@@ -127,10 +125,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: black;
 }
 
 .playIcon svg {
   width: 14px;
   height: 14px;
   transform: translateX(2px);
+}
+
+.trailerThumbnail {
+  width: 100%;
+  position: absolute;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  z-index: -1;
 }
