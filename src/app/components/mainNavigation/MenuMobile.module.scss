@@ -1,0 +1,45 @@
+.menuMobile {
+  @include respond-to(LARGE) {
+    display: none;
+  }
+}
+
+.nav {
+  --animation-time: 0.5s;
+  --animation-delay: 0s;
+
+  align-items: center;
+  background: $rich-black-color;
+  block-size: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  inline-size: 100%;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  opacity: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  pointer-events: none;
+  position: fixed;
+  transition: opacity var(--animation-time), translate var(--animation-time);
+  translate: 0 -50%;
+  z-index: -1;
+}
+
+.navOpen {
+  opacity: 1;
+  pointer-events: auto;
+  translate: 0 60px;
+  height: 100dvh;
+  background: $rich-black-color;
+  z-index: 2;
+  padding: 32px 24px;
+}
+
+.MenuMobileNavList {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
