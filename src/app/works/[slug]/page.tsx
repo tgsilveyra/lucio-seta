@@ -5,6 +5,7 @@ import styles from "./page.module.scss";
 import { createMarkup } from "@/app/utils/createMarkup";
 import { Work, WorkCredit, WorkMainImage } from "@/app/types/work";
 import { getData } from "@/app/utils/getData";
+import { VideoPerformanceTemplate } from "@/app/components/videoPerformanceTemplate/VideoPerformanceTemplate";
 
 export async function generateStaticParams() {
   const data = await getData().then((res) => res.json());
@@ -42,11 +43,21 @@ export default async function WorkPage({
     images,
     trailer,
     trailerThumbnail,
+    template,
+    video,
   } = data;
 
   return (
     <div className={styles.page}>
-      <main className={clsx("grid-container", styles.main)}>
+      <main
+        className={clsx(
+          "grid-container",
+          `${
+            template === "video-performance" && styles.videoPerformanceTemplate
+          }`,
+          styles.main
+        )}
+      >
         <div className={styles.titleWrapper}>
           <h2 className={styles.title}>{title}</h2>
           <p className={styles.subtitle}>{subtitle}</p>
@@ -90,37 +101,49 @@ export default async function WorkPage({
           </div>
         </div>
 
-        <div className={styles.workContent}>
-          <div
-            className={styles.description}
-            dangerouslySetInnerHTML={createMarkup(description)}
-          ></div>
-          <div className={styles.imageWrapper}>
-            {mainImage && (
-              <img
-                className={styles.mainImage}
-                src={`${process.env.BASE_PATH}/${mainImage.url}`}
-                alt={mainImage.alt}
-              />
-            )}
-          </div>
-        </div>
-        <ul className={styles.imagesList}>
-          {images &&
-            images.length > 0 &&
-            images.map((image: WorkMainImage, index: number) => (
-              <li
-                key={`${image.url}-${index}`}
-                className={styles.imageListItem}
-              >
+        {template === "video-performance" && (
+          <VideoPerformanceTemplate
+            video={video}
+            className={styles.videoPerformanceComponent}
+          />
+        )}
+
+        {description && (
+          <div className={styles.workContent}>
+            <div
+              className={styles.description}
+              dangerouslySetInnerHTML={createMarkup(description)}
+            ></div>
+            <div className={styles.imageWrapper}>
+              {mainImage && (
                 <img
-                  className={styles.image}
-                  src={`${process.env.BASE_PATH}/${image.url}`}
-                  alt={image.alt}
+                  className={styles.mainImage}
+                  src={`${process.env.BASE_PATH}/${mainImage.url}`}
+                  alt={mainImage.alt}
                 />
-              </li>
-            ))}
-        </ul>
+              )}
+            </div>
+          </div>
+        )}
+
+        {images && images.length > 0 && (
+          <ul className={styles.imagesList}>
+            {images &&
+              images.length > 0 &&
+              images.map((image: WorkMainImage, index: number) => (
+                <li
+                  key={`${image.url}-${index}`}
+                  className={styles.imageListItem}
+                >
+                  <img
+                    className={styles.image}
+                    src={`${process.env.BASE_PATH}/${image.url}`}
+                    alt={image.alt}
+                  />
+                </li>
+              ))}
+          </ul>
+        )}
       </main>
     </div>
   );

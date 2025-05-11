@@ -1,0 +1,12 @@
+.biographySection {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: $colorVanillaIce;
+}
+
+.description {
+  margin-block-end: 60px;
+}

@@ -378,6 +378,87 @@
     ],
     "otherWorks": [
       {
+        "slug": "lucio-seta-karlotta-frank",
+        "title": "Lucio Seta & Karlotta Frank",
+        "subtitle": "Video Footage",
+        "template": "video-performance",
+        "year": "2025",
+        "shortDescription": "Video Footage",
+        "premiered": "",
+        "credits": [
+          {
+            "role": "DANCER",
+            "name": "Lucio Seta & Karlotta Frank"
+          },
+          {
+            "role": "CAMERA",
+            "name": "Lorenz Romatzki"
+          },
+          {
+            "role": "MUSIC",
+            "name": "Present Tense - Radiohead"
+          },
+          {
+            "role": "Edited By",
+            "name": "Karlotta Frank"
+          }
+        ],
+        "video": {
+          "description": "VIDEO FOOTAGE",
+          "url": "https://www.youtube.com/embed/0BndAXMcWiY?si=cFCH9k3AnViTvJSd"
+        }
+      },
+      {
+        "slug": "improvisation-at-la-medina",
+        "title": "Improvisation at \"La Medina\"",
+        "subtitle": "Tunez 2025",
+        "template": "video-performance",
+        "year": "2025",
+        "shortDescription": "Tunez 2025",
+        "premiered": "",
+        "credits": [
+          {
+            "role": "DANCER",
+            "name": "Lucio Seta"
+          },
+          {
+            "role": "CAMERA",
+            "name": "Iman Kay"
+          },
+          {
+            "role": "MUSIC",
+            "name": "The Shangai Restoration Project- Lu Xun"
+          },
+          {
+            "role": "Edited By",
+            "name": "Lucio Seta"
+          }
+        ],
+        "video": {
+          "description": "VIDEO FOOTAGE",
+          "url": "https://www.youtube.com/embed/0Wl71NLGJ-k?si=AMnzx830aRrIJYkZ"
+        }
+      },
+      {
+        "slug": "baby-of-the-bunch",
+        "title": "Baby of the Bunch - Hot Girl Summer",
+        "subtitle": "Official Video Clip",
+        "template": "video-performance",
+        "year": "2025",
+        "shortDescription": "Official Video Clip",
+        "premiered": "",
+        "credits": [
+          {
+            "role": "DANCERS",
+            "name": "Karlotta Frank & Lucio Seta"
+          }
+        ],
+        "video": {
+          "description": "Official Video Clip",
+          "url": "https://www.youtube.com/embed/5VSGnI_HpzI?si=DnqR_2NIKw3FrzGF"
+        }
+      },
+      {
         "slug": "en-nombre-del-viaje",
         "title": "En Nombre del Viaje",
         "subtitle": "2024 - Short film",
@@ -433,6 +514,60 @@
         "mainImage": {
           "url": "assets/images/sensing-volumes-01.png",
           "alt": "Sensing Volumes performance image"
+        }
+      },
+      {
+        "slug": "dance-improvisation-in-berlin",
+        "title": "Dance Improvisation In Berlin",
+        "subtitle": "Autumn 2023",
+        "template": "video-performance",
+        "year": "2023",
+        "shortDescription": "Autumn 2023",
+        "premiered": "",
+        "credits": [
+          {
+            "role": "DANCER",
+            "name": "Lucio Seta"
+          },
+          {
+            "role": "CAMERA",
+            "name": "Rina Nakano"
+          },
+          {
+            "role": "MUSIC",
+            "name": "Gustavo Cerati - Cordero de Dios 2"
+          },
+          {
+            "role": "Edited By",
+            "name": "Lucio Seta"
+          }
+        ],
+        "video": {
+          "description": "VIDEO FOOTAGE",
+          "url": "https://www.youtube.com/embed/g5bgdgz6F_A?si=IxWrQh6LDMPc3i6N"
+        }
+      },
+      {
+        "slug": "upstairs-downtown-2022",
+        "title": "UPSTAIRS DOWNTOWN 2022",
+        "subtitle": "Berlin, Germany",
+        "template": "video-performance",
+        "year": "2022",
+        "shortDescription": "Berlin, Germany",
+        "premiered": "",
+        "credits": [
+          {
+            "role": "DIRECTOR",
+            "name": "Karin Wickenhaeuser"
+          },
+          {
+            "role": "CAMERA",
+            "name": "Andrea Keiz"
+          }
+        ],
+        "video": {
+          "description": "VIDEO FOOTAGE",
+          "url": "https://www.youtube.com/embed/hTdh7_0i9QA?si=YV9y0hZxhqqJH72L"
         }
       }
     ]

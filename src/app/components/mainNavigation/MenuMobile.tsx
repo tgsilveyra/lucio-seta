@@ -58,7 +58,7 @@ export const MenuMobile = () => {
             </Link>
           </li>
           <li className="main-navigation__list-item">
-            <Link href="/" onClick={onLinkClick}>
+            <Link href="/#biography" onClick={onLinkClick}>
               Biography
             </Link>
           </li>

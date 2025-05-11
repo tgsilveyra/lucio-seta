@@ -21,10 +21,29 @@
   }
 }
 
+.videoPerformanceTemplate .titleWrapper {
+  @include respond-to(LARGE) {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    align-items: center;
+  }
+}
+
+.videoPerformanceComponent {
+  grid-column: 1 / -1;
+  width: 100%;
+}
+
 .workInfo {
   margin-block-start: 60px;
   @include respond-to(LARGE) {
     margin-block-start: 120px;
+  }
+}
+
+.videoPerformanceTemplate .workInfo {
+  @include respond-to(LARGE) {
+    margin-block-start: 60px;
   }
 }
 

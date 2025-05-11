@@ -27,7 +27,7 @@ export const MenuDesktop = () => {
             </ul>
           </li>
           <li className={styles.navListItem}>
-            <Link className={styles.listItem} href="/">
+            <Link className={styles.listItem} href="/#biography">
               Biography
             </Link>
           </li>
