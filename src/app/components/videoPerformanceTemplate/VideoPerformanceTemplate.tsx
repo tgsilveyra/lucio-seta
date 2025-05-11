@@ -1,4 +1,3 @@
-import Link from "next/link";
 import styles from "./VideoPerformanceTemplate.module.scss";
 import clsx from "clsx";
 
