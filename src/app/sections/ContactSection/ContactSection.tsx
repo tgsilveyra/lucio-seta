@@ -1,13 +1,11 @@
 "use client";
 
-import { useGSAP } from "@gsap/react";
 import styles from "./ContactSection.module.scss";
 import clsx from "clsx";
 import gsap from "gsap";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
 
 export const ContactSection = () => {
@@ -17,29 +15,26 @@ export const ContactSection = () => {
   const bookingRef = useRef(null);
   const contactRef = useRef(null);
 
-  useGSAP(
-    () => {
-      const words = [
-        titleRef.current,
-        subtitleRef.current,
-        bookingRef.current,
-        contactRef.current,
-      ];
+  useEffect(() => {
+    const words = [
+      titleRef.current,
+      subtitleRef.current,
+      bookingRef.current,
+      contactRef.current,
+    ];
 
-      gsap.to(words, {
-        x: 0,
-        stagger: 0.12,
-        ease: "power1.inOut",
-        scrollTrigger: {
-          trigger: titleRef.current,
-          start: "start bottom-=100",
-          end: "bottom bottom",
-          // markers: true,
-        },
-      });
-    },
-    { scope: sectionRef }
-  );
+    gsap.to(words, {
+      x: 0,
+      stagger: 0.12,
+      ease: "power1.inOut",
+      scrollTrigger: {
+        trigger: titleRef.current,
+        start: "start bottom-=100",
+        end: "bottom bottom",
+        // markers: true,
+      },
+    });
+  }, []);
 
   return (
     <section
