@@ -9,7 +9,7 @@
   --animation-delay: 0s;
 
   align-items: center;
-  background: $rich-black-color;
+  background: $white-color;
   block-size: 100dvh;
   display: flex;
   flex-direction: column;
@@ -32,7 +32,7 @@
   pointer-events: auto;
   translate: 0 60px;
   height: 100dvh;
-  background: $rich-black-color;
+  background: $white-color;
   z-index: 2;
   padding: 32px 24px;
 }
@@ -42,4 +42,8 @@
   flex-direction: column;
   gap: 32px;
   width: 100%;
+}
+
+.listItem {
+  font-family: var(--font-ibm);
 }

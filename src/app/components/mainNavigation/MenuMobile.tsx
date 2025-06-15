@@ -24,9 +24,9 @@ export const MenuMobile = () => {
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         >
           <path d="M4 12h16" />
           <path d="M4 18h16" />
@@ -48,27 +48,39 @@ export const MenuMobile = () => {
           role="menu"
         >
           <li className="main-navigation__list-item">
-            <Link href="/#works" onClick={onLinkClick}>
+            <Link
+              href="/#works"
+              onClick={onLinkClick}
+              className={styles.listItem}
+            >
               Main Works
             </Link>
           </li>
           <li className="main-navigation__list-item">
-            <Link href="/#other-works" onClick={onLinkClick}>
+            <Link
+              href="/#other-works"
+              onClick={onLinkClick}
+              className={styles.listItem}
+            >
               Other Works/Participation&apos;s
             </Link>
           </li>
           <li className="main-navigation__list-item">
-            <Link href="/#biography" onClick={onLinkClick}>
+            <Link
+              href="/#biography"
+              onClick={onLinkClick}
+              className={styles.listItem}
+            >
               Biography
             </Link>
           </li>
           <li className="main-navigation__list-item">
-            <Link href="#" onClick={onLinkClick}>
+            <Link href="#" onClick={onLinkClick} className={styles.listItem}>
               Teaching
             </Link>
           </li>
           <li className="main-navigation__list-item">
-            <Link href="" onClick={onLinkClick}>
+            <Link href="" onClick={onLinkClick} className={styles.listItem}>
               Contact
             </Link>
           </li>

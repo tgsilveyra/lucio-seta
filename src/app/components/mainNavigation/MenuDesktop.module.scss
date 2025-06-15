@@ -17,6 +17,7 @@
 
 .listItem {
   transition: opacity 0.3s ease;
+  font-family: var(--font-ibm);
 }
 
 .listItem:hover {
@@ -28,7 +29,7 @@
   position: absolute;
   top: 100%;
   min-width: 250px;
-  background-color: $rich-black-color;
+  background-color: $white-color;
   z-index: 2;
   padding: 16px 16px;
   flex-direction: column;

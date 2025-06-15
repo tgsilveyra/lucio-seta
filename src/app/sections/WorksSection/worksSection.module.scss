@@ -23,8 +23,29 @@
   }
 }
 
+.mainWorks {
+  background: linear-gradient(
+    355deg,
+    rgba(86, 137, 248, 1) 0%,
+    rgba(69, 172, 150, 1) 39%,
+    rgba(51, 207, 49, 1) 100%
+  );
+  padding-top: 120px;
+}
+
+.otherWorks {
+  background: linear-gradient(
+    355deg,
+    rgba(172, 69, 162, 1) 0%,
+    rgba(86, 137, 248, 1) 70%,
+    rgba(86, 137, 248, 1) 100%
+  );
+  padding-top: 120px;
+}
+
 .title {
-  color: $colorVanillaIce;
+  color: #7e3895;
+  text-shadow: -2px 2px 2px rgb(160, 176, 38);
   display: flex;
   justify-content: center;
   margin-block-end: 60px;

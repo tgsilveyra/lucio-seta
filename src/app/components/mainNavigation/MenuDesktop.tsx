@@ -13,7 +13,7 @@ export const MenuDesktop = () => {
             </Link>
             <ul className={styles.secondaryNavList}>
               <li className={styles.secondaryNavListItem}>
-                <Link className={styles.listItem} href="/#other-works">
+                <Link className={styles.listItem} href="/#main-works">
                   Main Works
                 </Link>
               </li>
@@ -32,12 +32,12 @@ export const MenuDesktop = () => {
             </Link>
           </li>
           <li className={styles.navListItem}>
-            <Link className={styles.listItem} href="#">
+            <Link className={styles.listItem} href="/#contact">
               Teaching
             </Link>
           </li>
           <li className={styles.navListItem}>
-            <Link className={styles.listItem} href="">
+            <Link className={styles.listItem} href="/#contact">
               Contact
             </Link>
           </li>

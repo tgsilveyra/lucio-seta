@@ -2,13 +2,13 @@
   --grid-max-width: 1920px;
   --nav-height: 116px;
 
-  --grid-padding-block: 90px;
+  --grid-padding-block: 60px;
   --grid-padding-inline: 30px;
   --grid-columns: 4;
   --grid-gap: 24px;
 
   @include respond-to(LARGE) {
-    --grid-padding-block: 160px;
+    --grid-padding-block: 120px;
     --grid-padding-inline: 60px;
     --grid-columns: 12;
     --grid-gap: 20px;
@@ -26,8 +26,8 @@ body {
 }
 
 body {
-  color: $white-color;
-  background: $rich-black-color;
+  color: $rich-black-color;
+  background: $white-color;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
@@ -84,7 +84,7 @@ ul {
 
 h1,
 .heading-1 {
-  font-family: var(--font-trajan-pro);
+  font-family: var(--font-inter);
   font-size: clamp(2.44rem, 2.38vi + 1.85rem, 3.75rem);
   font-weight: 200;
   // text-transform: uppercase;
@@ -92,7 +92,7 @@ h1,
 
 h2,
 .heading-2 {
-  font-family: var(--font-trajan-pro);
+  font-family: var(--font-inter);
   font-size: clamp(1.95rem, 1.56vi + 1.56rem, 2.81rem);
   font-weight: 400;
   // text-transform: uppercase;
@@ -100,7 +100,7 @@ h2,
 
 h3,
 .heading-3 {
-  font-family: var(--font-trajan-pro);
+  font-family: var(--font-inter);
   font-size: clamp(1.56rem, 1vi + 1.31rem, 2.11rem);
   font-weight: 400;
   // text-transform: uppercase;
@@ -108,20 +108,20 @@ h3,
 
 h4,
 .heading-4 {
-  font-family: var(--font-trajan-pro);
+  font-family: var(--font-inter);
   font-size: clamp(1.25rem, 0.61vi + 1.1rem, 1.58rem);
 }
 
 h5,
 .heading-5 {
-  font-family: var(--font-trajan-pro);
+  font-family: var(--font-inter);
   font-size: clamp(1.25rem, 0.61vi + 1.1rem, 1.58rem);
 }
 
 .body,
 p,
 a {
-  font-family: var(--font-room);
+  font-family: var(--font-inter);
   font-size: 18px;
   line-height: 1.2em;
   font-weight: 400;

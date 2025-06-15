@@ -21,7 +21,8 @@
 }
 
 .date {
-  color: $colorVanillaIce;
+  color: $white-color;
+  text-shadow: 0 0 4px rgba(black, 0.5);
   margin-bottom: 16px;
 
   @include respond-to(LARGE) {
@@ -35,6 +36,8 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
+  color: rgba($white-color, 1);
+  text-shadow: 0 0 4px rgba(black, 0.5);
 
   @include respond-to(LARGE) {
     gap: 16px;
