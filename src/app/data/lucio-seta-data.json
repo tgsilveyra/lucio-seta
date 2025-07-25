@@ -7,7 +7,7 @@
         "subtitle": "2025",
         "year": "2025",
         "shortDescription": "Will be presented as a work in progress at Hoffestspiele 2025 at Metropolis Theater in Berlin (GER)",
-        "description": "<p>“Work in Progress” Premiered at performed at Hoffestspiele (GER) 2025 BERLIN</p>",
+        "description": "<p>“Work in Progress” Premiered at performed at Hoffestspiele (GER) 2025 BERLIN</p><p>Patriarchy demands that all men obey with an act of psychic self-mutilation, that they mutilate a part of themselves - Bell Hooks</p><p>“Man In The Mirror “ is a performative study based on the dialogue between sound and movement, initiated by dancer/choreographer Lucio Seta and director and sound artist Federico Pipia. The project begins with a static image, seemingly harmless yet filled with nostalgia: a storefront display from the 1960s.</p><p>Drawing on the formal and expressive stereotypes of self-confidence from the past century, Man In the Mirror seeks to uncover the openings and fractures that emerge within the model of apparent masculinity. Through this process, it explores the choreographic and narrative possibilities arising from the disruption of a solidified certainty, such as the ethical and formal mask often tied to the male figure.</p><p>To instigate this monstrous transformation, the sound, live elaborated, fills the stage space, playing with associations and contradictions: starting with a song that is connotative and neutral at the same time (a song that recalls a history full of appropriations, such as the jazz one), the sound dramaturgy evolves, creating perceptual distortions and frequency intrusions.</p>",
         "premiered": "Duration: 23mins.",
         "credits": [
           {
@@ -28,12 +28,65 @@
           }
         ],
         "watchLabel": "",
+        "trailer": "https://www.youtube.com/watch?v=BHOdnd039Fo",
+        "trailerThumbnail": "assets/images/man-in-the-mirror-thumbnail.jpg",
+        "mainImage": {
+          "url": "assets/images/man-in-the-mirror-01.jpg",
+          "alt": "Man in the Mirror performance image"
+        },
+        "images": [
+          {
+            "url": "assets/images/man-in-the-mirror-04.jpg",
+            "alt": "Man in the Mirror performance image"
+          },
+          {
+            "url": "assets/images/man-in-the-mirror-03.jpg",
+            "alt": "Man in the Mirror performance image"
+          },
+          {
+            "url": "assets/images/man-in-the-mirror-02.jpg",
+            "alt": "Man in the Mirror performance image"
+          }
+        ]
+      },
+      {
+        "slug": "intention",
+        "title": "INTENTION",
+        "subtitle": "2025",
+        "year": "2025",
+        "shortDescription": "Dance Solo and participation of the Dance Slam Contemporary Dance Competition (2025)",
+        "description": "<p>“INTENTION” Dance Solo and participation of the Dance Slam Contemporary Dance Competition (2025)</p><p>This dance piece invites you to navigate human will. Through dreams, challenges and aspirations. The tragedy of trying.</p><p>On stage, the physical body meets its determination, its desire, its frustrations, its impediments. Movement and gestures are presented as a corporeal testimony, as a manifestation of the inner strength that drives us to persist in what we intentionate. In vain?</p><p>The dancer dialogues between the desire and the realm of reality, between the intention and the frustration.</p><p>How can we solve a problem we know might have no solution? What should we try? Why should we try?</p>",
+        "premiered": "Work in progress at Kulturhaus Karlshorst Berlin DANCE SLAM 2025 (GER)",
+        "credits": [
+          {
+            "role": "Concept, Direction and Dramaturgy",
+            "name": "Lucio Seta"
+          },
+          {
+            "role": "Choreography & Performer",
+            "name": "Lucio Seta"
+          },
+          {
+            "role": "Lights & Costume",
+            "name": "Lucio Seta"
+          },
+          {
+            "role": "Music",
+            "name": "Created by Martin Crocco"
+          },
+          {
+            "role": "Duration",
+            "name": "5 mins"
+          }
+        ],
+        "watchLabel": "",
         "trailer": "",
         "trailerThumbnail": "",
         "mainImage": {
-          "url": "",
-          "alt": ""
-        }
+          "url": "assets/images/intention-01.jpg",
+          "alt": "Intention performance image"
+        },
+        "images": []
       },
       {
         "slug": "the-straight-path",
@@ -413,6 +466,37 @@
     "otherWorks": [
       {
         "slug": "lucio-seta-karlotta-frank",
+        "title": "DANCE - LIVE SOUND Duo Performance",
+        "subtitle": "",
+        "template": "at TENDERMESH VENUE in Berlin, 2025 (GER)",
+        "year": "2025",
+        "shortDescription": "Video Footage",
+        "premiered": "",
+        "credits": [
+          {
+            "role": "DANCER",
+            "name": "Lucio Seta & Karlotta Frank"
+          },
+          {
+            "role": "CAMERA",
+            "name": "Lorenz Romatzki"
+          },
+          {
+            "role": "MUSIC",
+            "name": "Present Tense - Radiohead"
+          },
+          {
+            "role": "Edited By",
+            "name": "Karlotta Frank"
+          }
+        ],
+        "video": {
+          "description": "VIDEO FOOTAGE",
+          "url": "https://www.youtube.com/embed/0BndAXMcWiY?si=cFCH9k3AnViTvJSd"
+        }
+      },
+      {
+        "slug": "lucio-seta-karlotta-frank",
         "title": "Lucio Seta & Karlotta Frank",
         "subtitle": "Video Footage",
         "template": "video-performance",
@@ -442,7 +526,6 @@
           "url": "https://www.youtube.com/embed/0BndAXMcWiY?si=cFCH9k3AnViTvJSd"
         }
       },
-
       {
         "slug": "baby-of-the-bunch",
         "title": "Baby of the Bunch - Hot Girl Summer",
