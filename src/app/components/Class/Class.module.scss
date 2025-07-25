@@ -1,0 +1,120 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.classInfo {
+  margin-block-end: 60px; // Reduced for mobile
+
+  // Mobile-first: single column layout
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  gap: 40px;
+
+  // Tablet and desktop: two column layout
+  @include respond-to(MEDIUM) {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 25px;
+    gap: 80px;
+    margin-block-end: 60px;
+  }
+
+  @include respond-to(LARGE) {
+    gap: 120px;
+  }
+}
+
+.subtitle2 {
+  margin-block-start: 10px;
+  margin-inline-start: 20px;
+}
+
+.description {
+  margin-block-start: 40px;
+  margin-block-end: 40px;
+
+  @include respond-to(MEDIUM) {
+    margin-block-start: 60px;
+    margin-block-end: 60px;
+  }
+}
+
+.classInfoLeft {
+  width: 100%;
+
+  @include respond-to(MEDIUM) {
+    width: 55%;
+  }
+}
+
+.classInfoRight {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+
+  img {
+    width: 100%;
+    position: relative; // Change from sticky on mobile
+
+    @include respond-to(MEDIUM) {
+      position: sticky;
+      top: 0;
+    }
+  }
+
+  @include respond-to(MEDIUM) {
+    width: 45%;
+  }
+}
+
+.videoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  position: relative; // Changed from sticky on mobile
+
+  @include respond-to(MEDIUM) {
+    position: sticky;
+    top: 0;
+  }
+
+  video {
+    width: 100%;
+  }
+}
+
+.initialState {
+  transform: translate(0, 0);
+
+  @include respond-to(MEDIUM) {
+    transform: translate(100vw, 0); // Different animation for mobile
+  }
+}
+
+// Inverted variant styles
+.inverted {
+  .classInfoLeft {
+    // On mobile, maintain natural order
+    @include respond-to(MEDIUM) {
+      order: 2;
+      width: 45%;
+    }
+  }
+
+  .classInfoRight {
+    // On mobile, maintain natural order
+    @include respond-to(MEDIUM) {
+      order: 1;
+      width: 55%;
+    }
+  }
+
+  .initialState {
+    transform: translate(0, 0);
+
+    @include respond-to(MEDIUM) {
+      transform: translate(50vw, 0); // Different animation for mobile
+    }
+  }
+}

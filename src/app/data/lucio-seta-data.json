@@ -2,6 +2,40 @@
   "works": {
     "mainWorks": [
       {
+        "slug": "man-in-the-mirror",
+        "title": "MAN IN THE MIRROR",
+        "subtitle": "2025",
+        "year": "2025",
+        "shortDescription": "Will be presented as a work in progress at Hoffestspiele 2025 at Metropolis Theater in Berlin (GER)",
+        "description": "<p>“Work in Progress” Premiered at performed at Hoffestspiele (GER) 2025 BERLIN</p>",
+        "premiered": "Duration: 23mins.",
+        "credits": [
+          {
+            "role": "Concept, Direction and Dramaturgy",
+            "name": "Federico Pipia, Lucio Seta"
+          },
+          {
+            "role": "Choreography & Performer",
+            "name": "Lucio Seta and Federico Pipia"
+          },
+          {
+            "role": "Live Electronics, Performer",
+            "name": " Federico Pipia"
+          },
+          {
+            "role": "Costume",
+            "name": "Lucio Seta and Federico Pipia"
+          }
+        ],
+        "watchLabel": "",
+        "trailer": "",
+        "trailerThumbnail": "",
+        "mainImage": {
+          "url": "",
+          "alt": ""
+        }
+      },
+      {
         "slug": "the-straight-path",
         "title": "The Straight Path",
         "subtitle": "2025 - Video Performance",
@@ -408,37 +442,7 @@
           "url": "https://www.youtube.com/embed/0BndAXMcWiY?si=cFCH9k3AnViTvJSd"
         }
       },
-      {
-        "slug": "improvisation-at-la-medina",
-        "title": "Improvisation at \"La Medina\"",
-        "subtitle": "Tunez 2025",
-        "template": "video-performance",
-        "year": "2025",
-        "shortDescription": "Tunez 2025",
-        "premiered": "",
-        "credits": [
-          {
-            "role": "DANCER",
-            "name": "Lucio Seta"
-          },
-          {
-            "role": "CAMERA",
-            "name": "Iman Kay"
-          },
-          {
-            "role": "MUSIC",
-            "name": "The Shangai Restoration Project- Lu Xun"
-          },
-          {
-            "role": "Edited By",
-            "name": "Lucio Seta"
-          }
-        ],
-        "video": {
-          "description": "VIDEO FOOTAGE",
-          "url": "https://www.youtube.com/embed/0Wl71NLGJ-k?si=AMnzx830aRrIJYkZ"
-        }
-      },
+
       {
         "slug": "baby-of-the-bunch",
         "title": "Baby of the Bunch - Hot Girl Summer",
@@ -514,6 +518,39 @@
         "mainImage": {
           "url": "assets/images/sensing-volumes-01.png",
           "alt": "Sensing Volumes performance image"
+        }
+      }
+    ],
+    "extraWorks": [
+      {
+        "slug": "improvisation-at-la-medina",
+        "title": "Improvisation at \"La Medina\"",
+        "subtitle": "Tunez 2025",
+        "template": "video-performance",
+        "year": "2025",
+        "shortDescription": "Tunez 2025",
+        "premiered": "",
+        "credits": [
+          {
+            "role": "DANCER",
+            "name": "Lucio Seta"
+          },
+          {
+            "role": "CAMERA",
+            "name": "Iman Kay"
+          },
+          {
+            "role": "MUSIC",
+            "name": "The Shangai Restoration Project- Lu Xun"
+          },
+          {
+            "role": "Edited By",
+            "name": "Lucio Seta"
+          }
+        ],
+        "video": {
+          "description": "VIDEO FOOTAGE",
+          "url": "https://www.youtube.com/embed/0Wl71NLGJ-k?si=AMnzx830aRrIJYkZ"
         }
       },
       {

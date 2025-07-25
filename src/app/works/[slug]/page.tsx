@@ -10,9 +10,11 @@ import { VideoPerformanceTemplate } from "@/app/components/videoPerformanceTempl
 export async function generateStaticParams() {
   const data = await getData().then((res) => res.json());
 
-  const allWorks = [...data.works.mainWorks, ...data.works.otherWorks];
-
-  console.log(data.works.otherWorks);
+  const allWorks = [
+    ...data.works.mainWorks,
+    ...data.works.otherWorks,
+    ...data.works.extraWorks,
+  ];
 
   return allWorks.map((work: Work) => ({
     slug: work.slug,
@@ -22,7 +24,11 @@ export async function generateStaticParams() {
 async function getPageData(slug: string) {
   const data = await getData().then((res) => res.json());
 
-  const allWorks = [...data.works.mainWorks, ...data.works.otherWorks];
+  const allWorks = [
+    ...data.works.mainWorks,
+    ...data.works.otherWorks,
+    ...data.works.extraWorks,
+  ];
 
   return allWorks.find((work: Work) => work.slug === slug);
 }

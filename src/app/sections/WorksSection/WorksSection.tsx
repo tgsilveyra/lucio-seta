@@ -47,9 +47,28 @@ export const WorksSection = async () => {
         )}
       >
         <div>
-          <h2 className={styles.title}>Other Works</h2>
+          <h2 className={styles.title}>Other Works / Participation&apos;s</h2>
           <ul className={styles.worksList}>
             {data.otherWorks.map((work: Work) => (
+              <WorkListItem
+                key={work.title}
+                year={work.year}
+                title={work.title}
+                description={work.shortDescription}
+                href={`/works/${work.slug}`}
+              />
+            ))}
+          </ul>
+        </div>
+      </div>
+      <div
+        id="extras"
+        className={clsx("grid-container", styles.worksSection, styles.extras)}
+      >
+        <div>
+          <h2 className={styles.title}>Extras / Video Footage</h2>
+          <ul className={styles.worksList}>
+            {data.extraWorks.map((work: Work) => (
               <WorkListItem
                 key={work.title}
                 year={work.year}

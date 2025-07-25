@@ -21,7 +21,14 @@ export const MenuDesktop = () => {
                 className={`${styles.secondaryNavListItem} ${styles.listItem}`}
               >
                 <Link className={styles.listItem} href="/#other-works">
-                  Other Works
+                  Other Works / Participation&apos;s
+                </Link>
+              </li>
+              <li
+                className={`${styles.secondaryNavListItem} ${styles.listItem}`}
+              >
+                <Link className={styles.listItem} href="/#extras">
+                  Extras / Video Footage
                 </Link>
               </li>
             </ul>
@@ -32,7 +39,7 @@ export const MenuDesktop = () => {
             </Link>
           </li>
           <li className={styles.navListItem}>
-            <Link className={styles.listItem} href="/#contact">
+            <Link className={styles.listItem} href="/#teaching">
               Teaching
             </Link>
           </li>

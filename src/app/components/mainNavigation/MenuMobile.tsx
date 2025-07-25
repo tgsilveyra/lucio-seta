@@ -67,6 +67,15 @@ export const MenuMobile = () => {
           </li>
           <li className="main-navigation__list-item">
             <Link
+              href="/#extras"
+              onClick={onLinkClick}
+              className={styles.listItem}
+            >
+              Extras / Video Footage
+            </Link>
+          </li>
+          <li className="main-navigation__list-item">
+            <Link
               href="/#biography"
               onClick={onLinkClick}
               className={styles.listItem}
@@ -75,12 +84,20 @@ export const MenuMobile = () => {
             </Link>
           </li>
           <li className="main-navigation__list-item">
-            <Link href="#" onClick={onLinkClick} className={styles.listItem}>
+            <Link
+              href="/#teaching"
+              onClick={onLinkClick}
+              className={styles.listItem}
+            >
               Teaching
             </Link>
           </li>
           <li className="main-navigation__list-item">
-            <Link href="" onClick={onLinkClick} className={styles.listItem}>
+            <Link
+              href="/#contact"
+              onClick={onLinkClick}
+              className={styles.listItem}
+            >
               Contact
             </Link>
           </li>
