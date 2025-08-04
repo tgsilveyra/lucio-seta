@@ -54,7 +54,6 @@ export const Class = ({
         trigger: classInfoRef.current,
         start: inverted ? "start-=100 bottom" : "start+=100 bottom",
         end: "bottom bottom",
-        scrub: true,
       },
     });
   }, [inverted]);

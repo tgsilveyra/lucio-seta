@@ -55,7 +55,7 @@
         "subtitle": "2025",
         "year": "2025",
         "shortDescription": "Dance Solo and participation of the Dance Slam Contemporary Dance Competition (2025)",
-        "description": "<p>“INTENTION” Dance Solo and participation of the Dance Slam Contemporary Dance Competition (2025)</p><p>This dance piece invites you to navigate human will. Through dreams, challenges and aspirations. The tragedy of trying.</p><p>On stage, the physical body meets its determination, its desire, its frustrations, its impediments. Movement and gestures are presented as a corporeal testimony, as a manifestation of the inner strength that drives us to persist in what we intentionate. In vain?</p><p>The dancer dialogues between the desire and the realm of reality, between the intention and the frustration.</p><p>How can we solve a problem we know might have no solution? What should we try? Why should we try?</p>",
+        "description": "<p>“INTENTION” Dance Solo and participation of the Dance Slam Contemporary Dance Competition (2025)</p><p>This dance piece invites you to navigate human will. Through dreams, challenges and aspirations. The tragedy of trying.</p><p>On stage, the physical body meets its determination, its desire, its frustrations, its impediments. Movement and gestures are presented as a corporeal testimony, as a manifestation of the inner strength that drives us to persist in what we intentionate. In vain?</p><p>The dancer dialogues between the desire and the realm of reality, between the intention and the frustration.</p><p>How can we solve a problem we know might have no solution? What should we try? Why should we try?</p><p><a href='https://www.instagram.com/p/DMYPzxdMSOT/' target='_blank'>Documentation interview: watch now</a></p>",
         "premiered": "Work in progress at Kulturhaus Karlshorst Berlin DANCE SLAM 2025 (GER)",
         "credits": [
           {
@@ -86,7 +86,12 @@
           "url": "assets/images/intention-01.jpg",
           "alt": "Intention performance image"
         },
-        "images": []
+        "images": [
+          {
+            "url": "assets/images/intention-02.webp",
+            "alt": "Intention performance image"
+          }
+        ]
       },
       {
         "slug": "the-straight-path",

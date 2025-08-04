@@ -30,7 +30,11 @@ export const TeachingSection = () => {
           "The class consists in a dynamic exploration of floorwork techniques, blending elements from Flying Low, Capoeira, and Breaking. This class delves into diverse movements to seamlessly transition in and out of the ground, emphasizing body care and proper force application. Exploring various body relationships such as head-to-pelvis and heel-to-sitting bones, we investigate the role of the pelvis and weight distribution. Acrobatic elements will be explored not only for their form but also for the dynamics of execution, suspension, and landing, opening up new spatial possibilities.",
           "This workshop is open to professional dancers interested in expanding their floorwork techniques, as well as individuals with previous experience in any movement discipline.",
         ]}
-        imageSrc={`${process.env.BASE_PATH}/assets/images/teaching-01.jpg`}
+        videoSrcs={[
+          `${process.env.BASE_PATH}/teaching-floorwork-dynamics-01.mp4`,
+          `${process.env.BASE_PATH}/teaching-floorwork-dynamics-02.mp4`,
+          `${process.env.BASE_PATH}/teaching-floorwork-dynamics-03.mp4`,
+        ]}
         imageAlt="image teaching lessons"
       />
       <Class

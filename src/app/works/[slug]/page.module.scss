@@ -156,3 +156,13 @@
   object-fit: cover;
   z-index: -1;
 }
+
+.description a {
+  font-weight: 600;
+  color: $dark-cyan-color;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
