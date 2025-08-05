@@ -6,7 +6,7 @@
         "title": "MAN IN THE MIRROR",
         "subtitle": "2025",
         "year": "2025",
-        "shortDescription": "Will be presented as a work in progress at Hoffestspiele 2025 at Metropolis Theater in Berlin (GER)",
+        "shortDescription": "Premiered at Hoffestspiele 2025 at Metropolis Theater in Berlin (GER)",
         "description": "<p>“Work in Progress” Premiered at performed at Hoffestspiele (GER) 2025 BERLIN</p><p>Patriarchy demands that all men obey with an act of psychic self-mutilation, that they mutilate a part of themselves - Bell Hooks</p><p>“Man In The Mirror “ is a performative study based on the dialogue between sound and movement, initiated by dancer/choreographer Lucio Seta and director and sound artist Federico Pipia. The project begins with a static image, seemingly harmless yet filled with nostalgia: a storefront display from the 1960s.</p><p>Drawing on the formal and expressive stereotypes of self-confidence from the past century, Man In the Mirror seeks to uncover the openings and fractures that emerge within the model of apparent masculinity. Through this process, it explores the choreographic and narrative possibilities arising from the disruption of a solidified certainty, such as the ethical and formal mask often tied to the male figure.</p><p>To instigate this monstrous transformation, the sound, live elaborated, fills the stage space, playing with associations and contradictions: starting with a song that is connotative and neutral at the same time (a song that recalls a history full of appropriations, such as the jazz one), the sound dramaturgy evolves, creating perceptual distortions and frequency intrusions.</p>",
         "premiered": "Duration: 23mins.",
         "credits": [
@@ -25,6 +25,10 @@
           {
             "role": "Costume",
             "name": "Lucio Seta and Federico Pipia"
+          },
+          {
+            "role": "Photography",
+            "name": "Rina Nakano"
           }
         ],
         "watchLabel": "",
