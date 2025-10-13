@@ -142,8 +142,6 @@ export default function GallerySection() {
         start: "top top",
         end: `+=${TOTAL_IMAGES * 100}%`, // Scroll distance
         pin: true,
-        // pinSpacing: false,
-        markers: true,
         scrub: 1,
       },
     });
