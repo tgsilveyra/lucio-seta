@@ -7,6 +7,7 @@
   position: relative;
   padding-bottom: 60px;
   min-height: calc(100dvh - 150px);
+  background-color: black;
 
   @include respond-to(LARGE) {
     padding-bottom: 120px;
@@ -18,8 +19,17 @@
 .heroContent {
   margin-top: 0;
   padding-block: 60px;
+  background-image: url("/assets/images/hero-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 90dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   @include respond-to(LARGE) {
-    padding-block: 160px;
+    padding-block: 300px;
   }
 }
 
@@ -37,12 +47,14 @@
 .mainTitle {
   transform: translateY(100%);
   font-weight: 700;
+  color: $white-color;
 }
 
 .secondaryTitle {
   transform: translateY(-100%);
   font-family: var(--font-ibm);
   letter-spacing: 0;
+  color: $white-color;
 }
 
 .thirdTitle {
@@ -54,6 +66,7 @@
   display: flex;
   aspect-ratio: 16 / 9;
   clip-path: polygon(0 0, 100% 0, 100% 0%, 0 0%);
+  margin-top: 60px;
 
   @include respond-to(LARGE) {
     border-radius: 40px;
@@ -61,6 +74,7 @@
     max-width: 95%;
     margin: 0 auto;
     will-change: clip-path;
+    margin-top: 120px;
   }
 }
 

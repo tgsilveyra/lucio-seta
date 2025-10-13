@@ -48,6 +48,7 @@ export const TeachingSection = () => {
       />
       <Class
         className="EXPERIMENTAL DANCE LAB"
+        instructor="with Naja Parejas"
         description={[
           "The class consists of an inclusive and playful space where young people aged 13-18 can explore the joy of movement together. Participants from all backgrounds, regardless of movement experience, are welcome to join.",
           "Over four engaging Sunday sessions, we will dive into a variety of movement games, techniques, and collaborative tasks. From elements of Contemporary Dance, Urban Dance and Physical conditioning, we will discover the physical possibilities of our bodies, blending guided training with individual creativity. Each session will challenge participants through improvisation tasks and choreography, fostering a supportive environment for self-expression and teamwork.",
