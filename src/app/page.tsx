@@ -5,12 +5,14 @@ import { BiographySection } from "@/app/sections/BiographySection/BiographySecti
 import { ContactSection } from "@/app/sections/ContactSection/ContactSection";
 import { Ticker } from "@/app/components/Ticker/Ticker";
 import { TeachingSection } from "@/app/sections/TeachingSection/TeachingSection";
+import GallerySection from "@/app/sections/GallerySection/GallerySection";
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
         <HeroSection />
+        <GallerySection />
         <Ticker />
         <WorksSection />
         <BiographySection />

@@ -1,0 +1,63 @@
+.gallerySection {
+  width: 100%;
+  height: 70vh; // Mobile: slightly less than full viewport
+  display: grid;
+  place-items: center;
+
+  @include respond-to(LARGE) {
+    height: 100vh; // Desktop: full viewport height
+  }
+
+  > * {
+    grid-area: 1 / 1;
+  }
+}
+
+.img-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  object-fit: cover;
+  border-radius: 0.3vw;
+  height: auto;
+}
+
+.img-format1 {
+  width: 80vw; // Mobile: wider images
+
+  @include respond-to(LARGE) {
+    width: 50vw; // Desktop: original size
+  }
+}
+
+.img-format2 {
+  width: 75vw; // Mobile: wider images
+
+  @include respond-to(LARGE) {
+    width: 43vw; // Desktop: original size
+  }
+}
+
+.img-format3 {
+  width: 72vw; // Mobile: wider images
+
+  @include respond-to(LARGE) {
+    width: 41vw; // Desktop: original size
+  }
+}
+
+.img-format4 {
+  width: 78vw; // Mobile: wider images
+
+  @include respond-to(LARGE) {
+    width: 49vw; // Desktop: original size
+  }
+}
+
+.img-format5 {
+  width: 50vw; // Mobile: wider images
+
+  @include respond-to(LARGE) {
+    width: 20vw; // Desktop: original size
+  }
+}
