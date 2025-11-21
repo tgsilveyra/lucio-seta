@@ -23,6 +23,18 @@ export const TeachingSection = () => {
       <h2 className={clsx(styles.title)} ref={titleRef}>
         TEACHING
       </h2>
+      <div className={styles.classDescription}>
+        <h4>
+          Currently teaching "Floorwork and Contemproary Dance Acrobatic" at Ada
+          Studios (Studio 7){" "}
+        </h4>
+        <h5>Every Wednesday (20:00hs - 21:30hs) Begginer Level</h5>
+        <p>
+          Next Workshop: Floorwork Lab on the 24th of November at Spreefeld
+          (Wilhelmine-Gemberg-Weg 12, 14 und 10, 10179 Berlin) Time: 10:00hs -
+          14:00hs Price: Sliding Scale between 20-30 €
+        </p>
+      </div>
       <Class
         className="FLOORWORK DYNAMICS"
         instructor="with Sofia Seta"

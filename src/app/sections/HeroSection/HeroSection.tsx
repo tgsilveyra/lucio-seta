@@ -4,10 +4,7 @@ import styles from "./heroSection.module.scss";
 import { Video } from "@/app/components/video/Video";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
 import clsx from "clsx";
-
-gsap.registerPlugin(ScrollTrigger);
 
 export const HeroSection = () => {
   const titleRef = useRef<HTMLHeadingElement>(null);
@@ -21,44 +18,30 @@ export const HeroSection = () => {
       const timeline = gsap.timeline({
         defaults: { ease: "power1.inOut", duration: 0.5 },
       });
-      const videoTimeline = gsap.timeline({});
 
       timeline.to(titleRef.current, { opacity: 1, y: 0 }, "start");
       timeline.to(secondaryTitleRef.current, { opacity: 1, y: 0 }, "<+=0.2");
 
-      videoTimeline.to(videoWrapperRef.current, {
-        clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-        scale: 1,
-      });
+      timeline.to(
+        videoWrapperRef.current,
+        {
+          clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+          duration: 0.75,
+        },
+        "<+=0.8"
+      );
 
-      ScrollTrigger.create({
-        trigger: videoWrapperRef.current,
-        start: "center bottom",
-        end: "center center+=200",
-        scrub: 0.2,
-        animation: videoTimeline,
-      });
-    });
+      timeline.to(
+        videoRef.current,
+        {
+          scale: 1,
+          duration: 0.75,
+        },
+        "<"
+      );
 
-    return () => ctx.revert();
-  }, []);
-
-  useEffect(() => {
-    const ctx = gsap.context(() => {
-      const videoTimeline = gsap.timeline({});
-
-      videoTimeline.to(videoRef.current, {
-        scale: 1,
-        duration: 1.5,
-        ease: "power2.out",
-      });
-
-      ScrollTrigger.create({
-        trigger: videoRef.current,
-        start: "top center",
-        end: "bottom center",
-        scrub: true,
-        animation: videoTimeline,
+      timeline.then(() => {
+        videoRef.current?.play();
       });
     });
 
@@ -87,10 +70,6 @@ export const HeroSection = () => {
           src={`${process.env.BASE_PATH}/videoplayback.mp4`}
           className={styles.heroVideo}
           ref={videoRef}
-          autoPlay
-          muted
-          loop
-          playsInline
         />
       </div>
     </section>

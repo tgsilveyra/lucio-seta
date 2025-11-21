@@ -58,7 +58,7 @@
         "title": "INTENTION",
         "subtitle": "2025",
         "year": "2025",
-        "shortDescription": "Dance Solo and participation of the Dance Slam Contemporary Dance Competition (2025)",
+        "shortDescription": "<p>Dance Solo and participation of the Dance Slam Contemporary Dance Competition (2025)</p><p>Performed at Delphis Orakel “Emerged Voices</p>",
         "description": "<p>“INTENTION” Dance Solo and participation of the Dance Slam Contemporary Dance Competition (2025)</p><p>This dance piece invites you to navigate human will. Through dreams, challenges and aspirations. The tragedy of trying.</p><p>On stage, the physical body meets its determination, its desire, its frustrations, its impediments. Movement and gestures are presented as a corporeal testimony, as a manifestation of the inner strength that drives us to persist in what we intentionate. In vain?</p><p>The dancer dialogues between the desire and the realm of reality, between the intention and the frustration.</p><p>How can we solve a problem we know might have no solution? What should we try? Why should we try?</p><p><a href='https://www.instagram.com/p/DMYPzxdMSOT/' target='_blank'>Documentation interview: watch now</a></p>",
         "premiered": "Work in progress at Kulturhaus Karlshorst Berlin DANCE SLAM 2025 (GER)",
         "credits": [
@@ -140,9 +140,9 @@
         "title": "Unlocked",
         "subtitle": "2024 2025 - Dance Solo",
         "year": "2024 2025",
-        "shortDescription": "Dance Solo",
+        "shortDescription": "<p>Dance Solo</p>",
         "description": "<p><b>Unlocked</b> is a solo dance piece, based on a 29 year body record of strong emotional experiences that shaped the body to express itself in this way.</p><p>What is the meaning of this body in movement?</p><p>How much do these emotional experiences shape the body and influence its expression through movement?</p><p>The dance piece tells an inner journey where the memory of the body navigates to past states of rage and despair. It's not about seeking to be overshadowed by the weight of trauma. On the contrary, the performer aims to shed light on the triumphs and successes that emerge from the human body's capacity to heal and overcome adversity through dance.</p>",
-        "premiered": "PREMIERED AT EXPEDITION METROPOLIS THEATER BERLIN (2024)",
+        "premiered": "<p>PREMIERED AT EXPEDITION METROPOLIS THEATER BERLIN (2024).</p><p>Performed at \"Moving Bodies, from Oxymoron Dance Company\" Berlin, Germany (2025).</p><p>Performed at Solo Stuttgart Competition - Stuttgart, Germany (2025).</p><p>Performed at \"Festivals Continents Noirs\" - Toulousse, France (2024).</p><p>Performed at \"Solo Contemporary Festival Ankara\" - Ankara, Turkey (2024).</p><p>Premiered x2 at \"Expedition Metropolis Theater\" Berlin, Germany (2024).</p>",
         "credits": [
           {
             "role": "Choreographer",
@@ -475,28 +475,21 @@
     "otherWorks": [
       {
         "slug": "lucio-seta-karlotta-frank",
-        "title": "DANCE - LIVE SOUND Duo Performance",
+        "title": "DANCE- LIVE SOUND Duo Performance at TENDERMESH VENUE in Berlin, 2025 (GER)",
         "subtitle": "",
         "template": "at TENDERMESH VENUE in Berlin, 2025 (GER)",
         "year": "2025",
         "shortDescription": "Video Footage",
-        "premiered": "",
+        "description": "An improvisation performance by the italo/argentinian duo composed by Federico Pipia (live electronics) and Lucio Seta (dancer) that elaborate their research in relationship with the hosting context.",
+        "premiered": "Performance at TENDERMESH VENUE in Berlin, 2025 (GER)",
         "credits": [
           {
-            "role": "DANCER",
-            "name": "Lucio Seta & Karlotta Frank"
+            "role": "SOUND",
+            "name": "Live Electronics by Federico Pipia"
           },
           {
-            "role": "CAMERA",
-            "name": "Lorenz Romatzki"
-          },
-          {
-            "role": "MUSIC",
-            "name": "Present Tense - Radiohead"
-          },
-          {
-            "role": "Edited By",
-            "name": "Karlotta Frank"
+            "role": "CHOREOGRAPHY AND DANCER",
+            "name": "Lucio Seta"
           }
         ],
         "video": {
@@ -506,7 +499,7 @@
       },
       {
         "slug": "lucio-seta-karlotta-frank",
-        "title": "Lucio Seta & Karlotta Frank",
+        "title": "Lucio Seta & Karlotta Frank (2025) - Video Footage",
         "subtitle": "Video Footage",
         "template": "video-performance",
         "year": "2025",
@@ -514,7 +507,7 @@
         "premiered": "",
         "credits": [
           {
-            "role": "DANCER",
+            "role": "DANCERS",
             "name": "Lucio Seta & Karlotta Frank"
           },
           {
@@ -532,7 +525,7 @@
         ],
         "video": {
           "description": "VIDEO FOOTAGE",
-          "url": "https://www.youtube.com/embed/0BndAXMcWiY?si=cFCH9k3AnViTvJSd"
+          "url": "https://www.youtube.com/embed/0BndAXMcWiY?si=1yCg8TVWE5H8NIUa"
         }
       },
       {
