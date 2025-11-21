@@ -25,8 +25,8 @@ export const TeachingSection = () => {
       </h2>
       <div className={styles.classDescription}>
         <h4>
-          Currently teaching "Floorwork and Contemproary Dance Acrobatic" at Ada
-          Studios (Studio 7){" "}
+          Currently teaching &quot;Floorwork and Contemproary Dance
+          Acrobatic&quot; at Ada Studios (Studio 7){" "}
         </h4>
         <h5>Every Wednesday (20:00hs - 21:30hs) Begginer Level</h5>
         <p>
