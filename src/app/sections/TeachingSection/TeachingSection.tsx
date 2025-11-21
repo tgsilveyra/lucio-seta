@@ -67,6 +67,7 @@ export const TeachingSection = () => {
           "Join us to connect, create, and celebrate movement in a fun and collaborative atmosphere!",
         ]}
         videoSrcs={[
+          `${process.env.BASE_PATH}/teaching-experimental-dance-lab-3.mp4`,
           `${process.env.BASE_PATH}/teaching-experimental-dance-lab.mp4`,
           `${process.env.BASE_PATH}/teaching-experimental-dance-lab-2.mp4`,
         ]}
