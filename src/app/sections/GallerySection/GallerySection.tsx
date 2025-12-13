@@ -9,7 +9,7 @@ export default function GallerySection() {
     "/assets/images/gallery-1.jpg",
     "/assets/images/gallery-2.jpg",
     "/assets/images/gallery-3.jpg",
-    "/assets/images/gallery-5.jpg",
+    "/assets/images/intention-01.jpg",
   ];
 
   return (

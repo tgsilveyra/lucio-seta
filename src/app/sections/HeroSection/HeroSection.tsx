@@ -1,7 +1,6 @@
 "use client";
 
 import styles from "./heroSection.module.scss";
-import { Video } from "@/app/components/video/Video";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import clsx from "clsx";
@@ -10,8 +9,8 @@ export const HeroSection = () => {
   const titleRef = useRef<HTMLHeadingElement>(null);
   const secondaryTitleRef = useRef<HTMLHeadingElement>(null);
   const heroContent = useRef<HTMLDivElement>(null);
-  const videoWrapperRef = useRef<HTMLDivElement>(null);
-  const videoRef = useRef<HTMLVideoElement>(null);
+  const imageWrapperRef = useRef<HTMLDivElement>(null);
+  const imageRef = useRef<HTMLImageElement>(null);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -23,7 +22,7 @@ export const HeroSection = () => {
       timeline.to(secondaryTitleRef.current, { opacity: 1, y: 0 }, "<+=0.2");
 
       timeline.to(
-        videoWrapperRef.current,
+        imageWrapperRef.current,
         {
           clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
           duration: 0.75,
@@ -32,17 +31,13 @@ export const HeroSection = () => {
       );
 
       timeline.to(
-        videoRef.current,
+        imageRef.current,
         {
           scale: 1,
           duration: 0.75,
         },
         "<"
       );
-
-      timeline.then(() => {
-        videoRef.current?.play();
-      });
     });
 
     return () => ctx.revert();
@@ -65,11 +60,12 @@ export const HeroSection = () => {
           </h2>
         </div>
       </div>
-      <div ref={videoWrapperRef} className={styles.heroVideoWrapper}>
-        <Video
-          src={`${process.env.BASE_PATH}/videoplayback.mp4`}
+      <div ref={imageWrapperRef} className={styles.heroVideoWrapper}>
+        <img
+          ref={imageRef}
+          src={`${process.env.BASE_PATH}/assets/images/hero-01.png`}
+          alt="Lucio Seta"
           className={styles.heroVideo}
-          ref={videoRef}
         />
       </div>
     </section>
