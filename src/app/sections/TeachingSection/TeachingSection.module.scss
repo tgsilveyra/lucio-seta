@@ -8,7 +8,15 @@
 
 .title {
   font-weight: 600;
-  margin-block-end: 120px;
+  margin-block-end: 40px;
+}
+
+.classDescription {
+  margin-block-end: 60px;
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .initialState {

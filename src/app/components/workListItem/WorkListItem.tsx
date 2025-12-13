@@ -21,7 +21,10 @@ export const WorkListItem = ({
         <p className={clsx("heading-4", styles.date)}>{year}</p>
         <div className={styles.workListContentWrapper}>
           <h4>{title}</h4>
-          <p className="body">{description}</p>
+          <p
+            className="body"
+            dangerouslySetInnerHTML={{ __html: description || "" }}
+          ></p>
         </div>
       </Link>
     </li>

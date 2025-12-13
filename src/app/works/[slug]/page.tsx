@@ -103,7 +103,12 @@ export default async function WorkPage({
                 ))}
               </ul>
             )}
-            {premiered && <p className={styles.premiered}>{premiered}</p>}
+            {premiered && (
+              <p
+                className={styles.premiered}
+                dangerouslySetInnerHTML={{ __html: premiered || "" }}
+              ></p>
+            )}
           </div>
         </div>
 
