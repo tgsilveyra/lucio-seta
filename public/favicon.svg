@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="0" flood-color="#000"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="64" height="64" rx="12" fill="##1c1b19"/>
+
+  <!-- Group for Letters ffeb3b ef4444-->
+  <g filter="url(#shadow)" transform="translate(4,4)">
+    <!-- L shape -->
+    <path d="M10 15 C10 8, 20 8, 20 15 L20 35 C20 40, 35 40, 35 45 C35 52, 10 52, 10 45 Z"
+          fill="#47d657" stroke="#000" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- S shape overlapping -->
+    <path d="M45 15 C55 15, 55 25, 45 28 C35 30, 35 35, 45 38 C55 40, 50 50, 40 48 C30 46, 30 38, 38 35 C48 32, 48 25, 40 22 C32 20, 35 12, 45 15 Z"
+          fill="#8552d1" stroke="#fff" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Highlights -->
+    <path d="M14 18 Q14 12 18 16" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M42 16 Q48 14 50 18" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>
