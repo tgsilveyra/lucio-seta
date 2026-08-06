@@ -2,6 +2,74 @@
   "works": {
     "mainWorks": [
       {
+        "slug": "ab-auf-die-matte",
+        "title": "Ab auf die Matte! (Get on the mat!)",
+        "subtitle": "2025 2026 - Dance Performance",
+        "year": "2025 2026",
+        "shortDescription": "<p>Dance performance for adults and children aged 4 and above, by LUNA PARK</p>",
+        "description": "<p>“Get on the mat!” (Ab auf die Matte!) is a dance performance for adults and children aged 4 and above: five young performers, one oversized mat – and a world full of possibilities. Sometimes it becomes a soft cloud, then a dangerous slope. It turns into a surfboard, a wall, a raft, a roof, a bridge, a playing field. The five performers climb, slide, build, hide, argue, help each other, lose their balance – and discover new paths. What first appears to be an exuberant game reveals deeper layers the longer you watch: it is about struggle, boundaries, courage and solidarity. Who gets to climb up? Who is left outside? Who holds you when everything is tipping over? In these questions, the themes of our time are reflected: movements of displacement meeting holiday paradises, walls as border protection, and the growing backward shift of our open societies towards exclusion and isolation. All of this is approached with energy, imagination and humor, exploring how we overcome obstacles, negotiate new spaces for everyone, and dream together of arriving in another – perhaps finally – better world.</p><p>“Get on the mat!” was developed from an idea by LUNA PARK’s artistic director Kosmas Kosmopoulos, in collaboration with the participating dancers and in close exchange with the pupils of the Gesundbrunnen Primary School and their families.</p>",
+        "premiered": "<p>Performed at Uferstudios Berlin, Germany (2025).</p><p>Performed at Gesundbrunnen Primary School - Berlin, Germany (2026).</p>",
+        "credits": [
+          {
+            "role": "Performance",
+            "name": "Nolwenn Benichou-Samson, Nikoleta Koutitsa, Marthe Meier, Lucio Seta, Caspar Sebastian Stuart Ilschner"
+          },
+          {
+            "role": "Artistic Direction, Concept and Set",
+            "name": "Kosmas Kosmopoulos"
+          },
+          {
+            "role": "Choreographic Assistance",
+            "name": "Nikoleta Koutitsa"
+          },
+          {
+            "role": "Audio Design and Sound Concept",
+            "name": "Carlos Aller"
+          },
+          {
+            "role": "Technical Direction and Lighting Design",
+            "name": "Eduard Mont de Palol"
+          },
+          {
+            "role": "Text and Dramaturgical Consultation",
+            "name": "Kai Pichmann"
+          },
+          {
+            "role": "Production Management and Communication",
+            "name": "Fee Josten, Carmen Maria Jentzsch"
+          },
+          {
+            "role": "Photography and Documentation",
+            "name": "Giovanni Lo Curto"
+          }
+        ],
+        "watchLabel": "",
+        "trailer": "",
+        "trailerThumbnail": "",
+        "mainImage": {
+          "url": "assets/images/ab-auf-die-matte-01.webp",
+          "alt": "Ab auf die Matte! dance performance image"
+        },
+        "images": [
+          {
+            "url": "assets/images/ab-auf-die-matte-02.webp",
+            "alt": "Ab auf die Matte! dance performance image"
+          },
+          {
+            "url": "assets/images/ab-auf-die-matte-03.webp",
+            "alt": "Ab auf die Matte! dance performance image"
+          },
+          {
+            "url": "assets/images/ab-auf-die-matte-04.webp",
+            "alt": "Ab auf die Matte! dance performance image"
+          },
+          {
+            "url": "assets/images/ab-auf-die-matte-05.webp",
+            "alt": "Ab auf die Matte! dance performance image"
+          }
+        ]
+      },
+      {
         "slug": "man-in-the-mirror",
         "title": "MAN IN THE MIRROR",
         "subtitle": "2025",
