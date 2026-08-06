@@ -91,3 +91,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # Default is 600000 (10 min), which the ~175MB of video assets
+          # in public/ have been exceeding on the Pages ingest step.
+          timeout: 1200000
