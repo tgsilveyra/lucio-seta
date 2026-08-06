@@ -34,9 +34,30 @@ export const MenuDesktop = () => {
             </ul>
           </li>
           <li className={styles.navListItem}>
-            <Link className={styles.listItem} href="/#biography">
-              Biography
+            <Link className={styles.listItem} href="/#about-me">
+              About Me
             </Link>
+            <ul className={styles.secondaryNavList}>
+              <li className={styles.secondaryNavListItem}>
+                <Link className={styles.listItem} href="/#biography">
+                  Biography
+                </Link>
+              </li>
+              <li
+                className={`${styles.secondaryNavListItem} ${styles.listItem}`}
+              >
+                <Link className={styles.listItem} href="/#artistic-statement">
+                  Artistic Statement
+                </Link>
+              </li>
+              <li
+                className={`${styles.secondaryNavListItem} ${styles.listItem}`}
+              >
+                <Link className={styles.listItem} href="/#studies-influences">
+                  Studies / Influences
+                </Link>
+              </li>
+            </ul>
           </li>
           <li className={styles.navListItem}>
             <Link className={styles.listItem} href="/#teaching">

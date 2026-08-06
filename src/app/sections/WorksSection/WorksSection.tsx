@@ -1,6 +1,7 @@
 import styles from "./worksSection.module.scss";
 import clsx from "clsx";
 import { WorkListItemDynamic } from "@/app/components/workListItem/WorkListItemDynamic";
+import { WorkGalleryItem } from "@/app/components/workGalleryItem/WorkGalleryItem";
 import { Work } from "@/app/types/work";
 import { getData } from "@/app/utils/getData";
 
@@ -25,13 +26,13 @@ export const WorksSection = async () => {
       >
         <div>
           <h2 className={styles.title}>Main Works</h2>
-          <ul className={styles.worksList}>
+          <ul className={styles.worksGallery}>
             {data.mainWorks.map((work: Work) => (
-              <WorkListItemDynamic
+              <WorkGalleryItem
                 key={work.title}
                 year={work.year}
                 title={work.title}
-                description={work.shortDescription}
+                image={work.mainImage ?? work.images?.[0]}
                 href={`/works/${work.slug}`}
               />
             ))}

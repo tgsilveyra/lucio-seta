@@ -1,0 +1,22 @@
+.aboutSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.subSection {
+  display: flex;
+  flex-direction: column;
+  margin-block-end: 60px;
+
+  &:last-child {
+    margin-block-end: 0;
+  }
+}
+
+.subTitle {
+  margin-block-end: 20px;
+}
+
+.description {
+  margin-block-end: 60px;
+}

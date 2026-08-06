@@ -69,6 +69,24 @@
   }
 }
 
+.worksGallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px 24px;
+  margin: 0 auto;
+  width: 95%;
+
+  @include respond-to(MEDIUM) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include respond-to(LARGE) {
+    flex: 65% 0;
+    grid-template-columns: repeat(3, 1fr);
+    width: auto;
+  }
+}
+
 .worksList {
   display: flex;
   flex-direction: column;

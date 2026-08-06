@@ -1,7 +1,7 @@
 import styles from "./page.module.scss";
 import { WorksSection } from "@/app/sections/WorksSection/WorksSection";
 import { HeroSection } from "@/app/sections/HeroSection/HeroSection";
-import { BiographySection } from "@/app/sections/BiographySection/BiographySection";
+import { AboutSection } from "@/app/sections/AboutSection/AboutSection";
 import { ContactSection } from "@/app/sections/ContactSection/ContactSection";
 import { Ticker } from "@/app/components/Ticker/Ticker";
 import { TeachingSection } from "@/app/sections/TeachingSection/TeachingSection";
@@ -15,7 +15,7 @@ export default function Home() {
         <GallerySection />
         <Ticker />
         <WorksSection />
-        <BiographySection />
+        <AboutSection />
         <TeachingSection />
         <ContactSection />
       </main>
