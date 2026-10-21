@@ -10,6 +10,7 @@ export type WorkMainImage = {
 
 export type WorkVideo = {
   url: string;
+  thumbnail?: string;
   caption?: string;
 };
 

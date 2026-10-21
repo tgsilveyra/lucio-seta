@@ -242,7 +242,8 @@
         "trailerThumbnail": "assets/images/unlocked-video-thumbnail.jpg",
         "extraVideos": [
           {
-            "url": "oxymoron-dance.mp4",
+            "url": "https://www.youtube.com/watch?v=6SsS_M590sk",
+            "thumbnail": "assets/images/unlocked-moving-bodies-thumbnail.jpg",
             "caption": "Unlocked at Moving Bodies Festival (2025)"
           }
         ],

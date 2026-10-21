@@ -33,6 +33,30 @@ async function getPageData(slug: string) {
   return allWorks.find((work: Work) => work.slug === slug);
 }
 
+function TrailerLink({ url, thumbnail }: { url: string; thumbnail?: string }) {
+  return (
+    <a href={url} target="_blank" className={styles.trailerWrapper}>
+      <span className={styles.playIcon}>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 224.075 224.075">
+          <path
+            d="M216.2 99.23 20.5 1.63C18.4.53 15.7.03 13.6.03 5.7.53 0 6.33 0 14.23v195.7c0 10.5 11 17.3 20.5 12.6l195.7-98.1c10.5-5.2 10.5-19.9 0-25.2zm-188.4 88.1V36.73l150.6 75-150.6 75.6z"
+            stroke="currentColor"
+            fill="currentColor"
+          />
+        </svg>
+      </span>
+      {thumbnail && (
+        <img
+          className={styles.trailerThumbnail}
+          src={`${process.env.BASE_PATH}/${thumbnail}`}
+          alt="video trailer thumbnail"
+        />
+      )}
+      {/* <p className={styles.trailerCopy}>{watchLabel}</p> */}
+    </a>
+  );
+}
+
 export default async function WorkPage({
   params,
 }: {
@@ -62,56 +86,32 @@ export default async function WorkPage({
           `${
             template === "video-performance" && styles.videoPerformanceTemplate
           }`,
-          styles.main
+          styles.main,
         )}
       >
         <div className={styles.titleWrapper}>
           <h2 className={styles.title}>{title}</h2>
           <p className={styles.subtitle}>{subtitle}</p>
           {trailer && (
-            <a href={trailer} target="_blank" className={styles.trailerWrapper}>
-              <span className={styles.playIcon}>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 224.075 224.075"
-                >
-                  <path
-                    d="M216.2 99.23 20.5 1.63C18.4.53 15.7.03 13.6.03 5.7.53 0 6.33 0 14.23v195.7c0 10.5 11 17.3 20.5 12.6l195.7-98.1c10.5-5.2 10.5-19.9 0-25.2zm-188.4 88.1V36.73l150.6 75-150.6 75.6z"
-                    stroke="currentColor"
-                    fill="currentColor"
-                  />
-                </svg>
-              </span>
-              {trailerThumbnail && (
-                <img
-                  className={styles.trailerThumbnail}
-                  src={`${process.env.BASE_PATH}/${trailerThumbnail}`}
-                  alt="video trailer thumbnail"
-                />
-              )}
-              {/* <p className={styles.trailerCopy}>{watchLabel}</p> */}
-            </a>
+            <TrailerLink url={trailer} thumbnail={trailerThumbnail} />
           )}
           {extraVideos &&
             extraVideos.length > 0 &&
             extraVideos.map((extraVideo: WorkVideo, index: number) => (
-              <figure
+              <div
                 key={`${extraVideo.url}-${index}`}
                 className={styles.extraVideo}
               >
-                <video
-                  className={styles.extraVideoPlayer}
-                  src={`${process.env.BASE_PATH}/${extraVideo.url}`}
-                  controls
-                  playsInline
-                  preload="metadata"
-                ></video>
+                <TrailerLink
+                  url={extraVideo.url}
+                  thumbnail={extraVideo.thumbnail}
+                />
                 {extraVideo.caption && (
-                  <figcaption className={styles.extraVideoCaption}>
+                  <p className={styles.extraVideoCaption}>
                     {extraVideo.caption}
-                  </figcaption>
+                  </p>
                 )}
-              </figure>
+              </div>
             ))}
           <div className={styles.workInfo}>
             {credits.length > 0 && (
