@@ -158,6 +158,22 @@
   z-index: -1;
 }
 
+.extraVideo {
+  width: 100%;
+  margin-block-start: 30px;
+}
+
+.extraVideoPlayer {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  display: block;
+  background: black;
+}
+
+.extraVideoCaption {
+  margin-block-start: 10px;
+}
+
 .description a {
   font-weight: 600;
   color: $dark-cyan-color;

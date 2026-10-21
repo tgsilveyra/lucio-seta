@@ -210,7 +210,7 @@
         "year": "2024 2025",
         "shortDescription": "<p>Dance Solo</p>",
         "description": "<p><b>Unlocked</b> is a solo dance piece, based on a 29 year body record of strong emotional experiences that shaped the body to express itself in this way.</p><p>What is the meaning of this body in movement?</p><p>How much do these emotional experiences shape the body and influence its expression through movement?</p><p>The dance piece tells an inner journey where the memory of the body navigates to past states of rage and despair. It's not about seeking to be overshadowed by the weight of trauma. On the contrary, the performer aims to shed light on the triumphs and successes that emerge from the human body's capacity to heal and overcome adversity through dance.</p>",
-        "premiered": "<p>PREMIERED AT EXPEDITION METROPOLIS THEATER BERLIN (2024).</p><p>Performed at \"Moving Bodies, from Oxymoron Dance Company\" Berlin, Germany (2025).</p><p>Performed at Solo Stuttgart Competition - Stuttgart, Germany (2025).</p><p>Performed at \"Festivals Continents Noirs\" - Toulousse, France (2024).</p><p>Performed at \"Solo Contemporary Festival Ankara\" - Ankara, Turkey (2024).</p><p>Premiered x2 at \"Expedition Metropolis Theater\" Berlin, Germany (2024).</p>",
+        "premiered": "<p>PREMIERED X2 AT EXPEDITION METROPOLIS THEATER BERLIN (2024).</p><p>Performed at:</p><p>\"Festival Constante\" by Compania Una Constante - Buenos Aires, Argentina (2026).</p><p>\"Moving Bodies, from Oxymoron Dance Company\" Berlin, Germany (2025).</p><p>Solo Stuttgart Competition - Stuttgart, Germany (2025).</p><p>\"Festivals Continents Noirs\" - Toulousse, France (2024).</p><p>\"Solo Contemporary Festival Ankara\" - Ankara, Turkey (2024).</p>",
         "credits": [
           {
             "role": "Choreographer",
@@ -240,6 +240,12 @@
         "watchLabel": "Watch Teaser",
         "trailer": "https://www.youtube.com/watch?v=CUUA0Hpb1KQ",
         "trailerThumbnail": "assets/images/unlocked-video-thumbnail.jpg",
+        "extraVideos": [
+          {
+            "url": "oxymoron-dance.mp4",
+            "caption": "Unlocked at Moving Bodies Festival (2025)"
+          }
+        ],
         "mainImage": {
           "url": "assets/images/unlocked-01.jpg",
           "alt": "Unlocked performance image"

@@ -8,6 +8,11 @@ export type WorkMainImage = {
   alt: string;
 };
 
+export type WorkVideo = {
+  url: string;
+  caption?: string;
+};
+
 export type Work = {
   slug: string;
   title: string;
@@ -20,4 +25,5 @@ export type Work = {
   mainImage: WorkMainImage;
   images: WorkMainImage[];
   trailer: string;
+  extraVideos?: WorkVideo[];
 };

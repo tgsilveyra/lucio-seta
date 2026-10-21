@@ -3,7 +3,7 @@ import clsx from "clsx";
 import styles from "./page.module.scss";
 
 import { createMarkup } from "@/app/utils/createMarkup";
-import { Work, WorkCredit, WorkMainImage } from "@/app/types/work";
+import { Work, WorkCredit, WorkMainImage, WorkVideo } from "@/app/types/work";
 import { getData } from "@/app/utils/getData";
 import { VideoPerformanceTemplate } from "@/app/components/videoPerformanceTemplate/VideoPerformanceTemplate";
 
@@ -49,6 +49,7 @@ export default async function WorkPage({
     images,
     trailer,
     trailerThumbnail,
+    extraVideos,
     template,
     video,
   } = data;
@@ -91,6 +92,27 @@ export default async function WorkPage({
               {/* <p className={styles.trailerCopy}>{watchLabel}</p> */}
             </a>
           )}
+          {extraVideos &&
+            extraVideos.length > 0 &&
+            extraVideos.map((extraVideo: WorkVideo, index: number) => (
+              <figure
+                key={`${extraVideo.url}-${index}`}
+                className={styles.extraVideo}
+              >
+                <video
+                  className={styles.extraVideoPlayer}
+                  src={`${process.env.BASE_PATH}/${extraVideo.url}`}
+                  controls
+                  playsInline
+                  preload="metadata"
+                ></video>
+                {extraVideo.caption && (
+                  <figcaption className={styles.extraVideoCaption}>
+                    {extraVideo.caption}
+                  </figcaption>
+                )}
+              </figure>
+            ))}
           <div className={styles.workInfo}>
             {credits.length > 0 && (
               <ul className={styles.worksList}>
