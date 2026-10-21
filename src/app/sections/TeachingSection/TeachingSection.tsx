@@ -23,14 +23,13 @@ const teachingClasses: TeachingClass[] = [
   },
   {
     name: "FLOORWORK LAB",
+    event:
+      'Workshop "Floorwork LAB" Autumn Edition 2026 - at Spreefeld Studio Berlin',
     description: [
       "This a class with a format of “laboratory”. This is in order for the participants to create a personal research with the guidelines, and then we can listen and share the experience with the information given (opening of new spaces, movement dynamics, new pattern, etc, internal sensations in the body, etc).",
       "We investigate together, supports and transitions, inversions, elasticity and flexibility, lateral arches, footwork, and floorwork in a moderate way with tasks that will be under a frameworkof improvisation. The movement practice is inspired by Klein Technique, Breaking Floor Rock and “The Curve” (Lucia Toker's method).",
     ],
-    // Sin media todavía. Para agregarla, dejá el archivo en public/ y descomentá
-    // la línea que corresponda (el path se resuelve solo, sin barra inicial):
-    // video: "teaching-floorwork-lab-01.mp4",
-    // image: { url: "assets/images/teaching-floorwork-lab.jpg", alt: "Floorwork Lab class" },
+    video: "teaching-floorwork-lab.mp4",
   },
   {
     name: "EXPERIMENTAL DANCE LAB",

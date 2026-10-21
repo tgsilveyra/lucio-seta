@@ -6,6 +6,7 @@ export type TeachingMedia = {
 export type TeachingClass = {
   name: string;
   instructor?: string;
+  event?: string;
   description: string[];
   video?: string;
   image?: TeachingMedia;
