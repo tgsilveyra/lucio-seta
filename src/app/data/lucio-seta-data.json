@@ -2,6 +2,70 @@
   "works": {
     "mainWorks": [
       {
+        "slug": "fragments-of-the-future",
+        "title": "Fragments of the Future",
+        "subtitle": "2026 - Dance Performance",
+        "year": "2026",
+        "shortDescription": "<p>Dance performance by Oxymoron Dance Company</p>",
+        "description": "<p>In <b>Fragments of the Future</b>, Anja Kozik, together with her new Oxymoron Dance Team, develops a choreographic work exploring processes of human transformation. The production invites audiences to pause and reflect, posing the question: At what point in time do we find ourselves today?</p><p>From this search emerge moving images of love – a love that seems impossible, yet endures as a longing. What do we expect from one another? What connects us? And how do we want to live together in the future?</p><p>For the first time, an opulent stage design opens up a space for a strange and unknown world. The dancers conquer, explore, demystify, and deconstruct this landscape, only to reassemble it again and again. Out of destruction and new beginnings arise fragments of possible futures.</p><p><b>Fragments of the Future</b> is a poetic journey through transformation, loss, and hope – a dance piece about the search for new visions of togetherness.</p>",
+        "premiered": "<p>Performed at \"Moving Bodies Festival\" - Waschhaus Potsdam, Germany (2026).</p>",
+        "credits": [
+          {
+            "role": "Director",
+            "name": "Anja Kozik"
+          },
+          {
+            "role": "Dance",
+            "name": "Panagiotis Tasoulis, Lucio Seta, Veronica Lillo, Xenia Argyri, Aybike Ipekci"
+          },
+          {
+            "role": "Music",
+            "name": "Christoph Kozik"
+          },
+          {
+            "role": "Costume",
+            "name": "Clara Escudero"
+          },
+          {
+            "role": "Stage",
+            "name": "Hannes Grätz"
+          },
+          {
+            "role": "Technician",
+            "name": "Tobias Mann"
+          }
+        ],
+        "watchLabel": "Watch Teaser",
+        "trailer": "https://www.youtube.com/watch?v=iykxq5WLWTc",
+        "trailerThumbnail": "assets/images/fragments-of-the-future-video-thumbnail.jpg",
+        "mainImage": {
+          "url": "assets/images/fragments-of-the-future-01.webp",
+          "alt": "Fragments of the Future dance performance image"
+        },
+        "images": [
+          {
+            "url": "assets/images/fragments-of-the-future-02.webp",
+            "alt": "Fragments of the Future dance performance image"
+          },
+          {
+            "url": "assets/images/fragments-of-the-future-03.webp",
+            "alt": "Fragments of the Future dance performance image"
+          },
+          {
+            "url": "assets/images/fragments-of-the-future-04.webp",
+            "alt": "Fragments of the Future dance performance image"
+          },
+          {
+            "url": "assets/images/fragments-of-the-future-05.webp",
+            "alt": "Fragments of the Future dance performance image"
+          },
+          {
+            "url": "assets/images/fragments-of-the-future-06.webp",
+            "alt": "Fragments of the Future dance performance image"
+          }
+        ]
+      },
+      {
         "slug": "ab-auf-die-matte",
         "title": "Ab auf die Matte! (Get on the mat!)",
         "subtitle": "2025 2026 - Dance Performance",
