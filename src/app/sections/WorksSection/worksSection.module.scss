@@ -82,7 +82,7 @@
 
   @include respond-to(LARGE) {
     flex: 65% 0;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     width: auto;
   }
 }

@@ -20,3 +20,18 @@
 .description {
   margin-block-end: 60px;
 }
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.workLink {
+  font-weight: 600;
+  color: $dark-cyan-color;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
